@@ -22,7 +22,9 @@ const getPatoHandler = async (req, res) => {
     lastName,
     profession,
     description,
-    image
+    image,
+    email,
+    phone
   ) => {
     if ((!name || !lastName, !profession, !description)) {
       throw Error("Missing data");
@@ -30,8 +32,11 @@ const getPatoHandler = async (req, res) => {
     const professional = await Pato.create({
       name,
       lastName,
+      profession,
       description,
       image,
+      email,
+      phone
     });
     return professional;
   };
