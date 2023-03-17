@@ -7,7 +7,7 @@ const router = Router();
 // const turnRouter = require("./TurnRouter.js");
 const serviceRouter = require("./ServiceRouter.js");
 const professionalRouter = require("./ProfessionalRouter.js");
-// const clientRouter = require("./ClientRouter.js");
+const patoRouter = require("./PatoRouter.js");
 // const paymentRouter = require("./PaymentRouter.js");
 // const reviewRouter = require("./ReviewRouter.js")
 
@@ -18,7 +18,7 @@ const professionalRouter = require("./ProfessionalRouter.js");
 // router.use("/turn", turnRouter);
 router.use("/service", serviceRouter);
 router.use("/profesionales", professionalRouter);
-// router.use("/client", clientRouter);
+ router.use("/pato", patoRouter);
 // router.use("/payment", paymentRouter);
 // router.use("/review", reviewRouter)
 
