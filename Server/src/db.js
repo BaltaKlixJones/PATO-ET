@@ -44,8 +44,8 @@ const { Professional, Pato, Service } = sequelize.models;
 
 // Aca vendrian las relaciones
 
-Service.belongsTo(Professional);
 Professional.hasMany(Service);
+Service.belongsTo(Professional);
 Pato.hasMany(Service);
 Service.belongsTo(Pato);
 

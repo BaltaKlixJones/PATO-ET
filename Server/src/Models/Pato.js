@@ -21,7 +21,7 @@ module.exports = (sequelize) => {
             
         },
         profession: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false,
         },
         description: {
