@@ -38,11 +38,11 @@ const postProfessionalHandler = async (req, res) => {
 
   try {
     const newProfessional = await postProfessionalController(
-      name,
-      description,
-      image,
-      lastName,
-    profession,
+        name,
+        lastName,
+        profession,
+        description,
+        image,
     );
     !newProfessional
       ? res.status(400).json({ error: "Professional not created" })
@@ -51,6 +51,8 @@ const postProfessionalHandler = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
+
+
 const deleteProfessionalHandler = async (req, res) => {
     const { id } = req.params;
     try {

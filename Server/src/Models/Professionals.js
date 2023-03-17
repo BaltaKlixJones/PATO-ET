@@ -20,7 +20,7 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       profession: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       description: {
@@ -30,6 +30,7 @@ module.exports = (sequelize) => {
       image: {
         type: DataTypes.STRING,
         allowNull: false,
+        defaultValue: "https://www.softzone.es/app/uploads/2018/04/guest.png"
       },
     },
     { timestamps: false }

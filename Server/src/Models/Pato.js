@@ -31,6 +31,7 @@ module.exports = (sequelize) => {
         image: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "https://www.softzone.es/app/uploads/2018/04/guest.png"
         },
         email: {
             type: DataTypes.STRING,
