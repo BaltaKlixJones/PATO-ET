@@ -1,8 +1,8 @@
 import React from "react"
 import './App.css';
-
 import { Switch, Route } from "react-router-dom";
 import Head from "./Pages/Head/Head";
+import NavBar from "./Components/NavBar/NavBar";
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
      
       <Head/>    
-     
+      <NavBar/>
     </div>
   );
 }
