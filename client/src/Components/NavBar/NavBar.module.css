@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(106, 195, 195);
+}
+
+.bottInicio,
+.bottProf,
+.bottContacto,
+.bottQS,
+.bottCursos{
+    background-color: transparent;
+    width: 80%;
+    height: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+    margin: 1rem;
+}
+
+.bottInicio:hover,
+.bottProf:hover,
+.bottContacto:hover,
+.bottQS:hover,
+.bottCursos:hover{
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transform-origin: center;
+}
+
+.bottInicio:focus,
+.bottProf:focus,
+.bottContacto:focus,
+.bottQS:focus,
+.bottCursos:focus{
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transform-origin: center;
+}
