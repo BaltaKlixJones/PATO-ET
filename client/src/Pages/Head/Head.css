@@ -1,0 +1,31 @@
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(106, 195, 195);
+    height: 150px;
+  }
+  
+  .titulo-head {
+    display: flex;
+    align-items: center; /* Alineamos los elementos al inicio */
+    
+  }
+  
+  .titulo-head img {
+    margin-right: 10px;
+    width: 200px; /* Establecemos el ancho de la imagen */
+    height: auto; /* El alto se ajusta automáticamente */
+    border-radius: 50%;
+  }
+ 
+  
+  .titulo-head h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    margin-bottom: 10px; /* Ajustamos el margen inferior */
+    margin-top: -30px;
+  }
