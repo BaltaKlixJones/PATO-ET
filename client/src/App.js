@@ -1,9 +1,9 @@
 import React from "react"
 import './App.css';
-import { Route, Routes } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
 
 import Head from "./Pages/Head/Head";
-import Home from "./Pages/Home/Home";
+import {Home} from "./Pages";
 import NavBar from "./Components/NavBar/NavBar";
 
 
@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Head/>
       <NavBar/>
-     <Routes>
-      <Route exact path="/" element={<Home/>} />
-    </Routes>
+     <BrowserRouter>
+      <Route exact path="/" component={Home} />
+    </BrowserRouter>
     </div>
   );
 }
