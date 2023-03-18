@@ -31,7 +31,7 @@ const getPatoController = async () => {
         phone
     });
     
-    console.log(pato.__proto__);
+   
     
     return pato;
   };
