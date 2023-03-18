@@ -3,21 +3,23 @@
     justify-content: center;
     align-items: center;
     padding: 0px;
-    background-color: rgb(106, 195, 195);
+    /* background-color: rgb(106, 195, 195); */
     height: 150px;
   }
   
   .titulo-head {
     display: flex;
-    align-items: center; /* Alineamos los elementos al inicio */
+    align-items: center; 
     
   }
   
   .titulo-head img {
     margin-right: 10px;
-    width: 200px; /* Establecemos el ancho de la imagen */
-    height: auto; /* El alto se ajusta automáticamente */
+    width: 100px; 
+    height: 100px; 
     border-radius: 50%;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   }
  
   
@@ -27,5 +29,5 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     margin-bottom: 10px; /* Ajustamos el margen inferior */
-    margin-top: -30px;
+    /* margin-top: -30px; */
   }
