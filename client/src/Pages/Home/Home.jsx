@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import inicio from "../../Imagenes/inicio.png";
+
 export default function Home() {
   return (
     <div className="home">
