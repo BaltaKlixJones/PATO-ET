@@ -1,15 +1,20 @@
 import React from 'react';
 import style from './NavBar.module.css';
 
+
 const NavBar = () => {
   return (
     <div className={style.navbar}>
+      
       <button className={style.bottInicio}>
         Inicio
       </button>
+      
+      
       <button className={style.bottProf}>
-        Profesionales
+        Centro
       </button>
+      
       <button className={style.bottContacto}>
         Contacto
       </button>

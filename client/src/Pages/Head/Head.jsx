@@ -8,7 +8,7 @@ export default function Head () {
         <div className="titulo-head">       
         <img style={{marginTop:"10px", borderRadius:"50px"}}src={logo} alt="" />
         <h1>
-            P.A.T.O. Estimulacion temprana y Neurorehabilitación Integral
+            P.A.T.O. Estimulacion Temprana y Neurorehabilitación Integral
         </h1>
         </div>
        </div>
