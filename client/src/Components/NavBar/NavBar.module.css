@@ -34,7 +34,7 @@
 .bottCursos:hover{
     cursor: pointer;
     color: #ffffff;
-    text-decoration: underline;
+    
     transform: scale(1.1);
     transform-origin: center;
 }
@@ -45,8 +45,8 @@
 .bottQS:focus,
 .bottCursos:focus{
     cursor: pointer;
-    color: #ffffff;
-    text-decoration: underline;
+    color: #545353;
+    
     transform: scale(1.1);
     transform-origin: center;
 }
