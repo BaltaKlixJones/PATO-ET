@@ -1,5 +1,8 @@
-import React from "react";
-import Location from "../Location /Location";
+
+import React from 'react';
+import Location from '../Location /Location';
+import Cards from '../../Components/Cards/Cards';
+
 
 export default function Centro() {
   return (
@@ -20,7 +23,12 @@ export default function Centro() {
 
       <div>
         <Location />
-      </div>
-    </>
+        </div>
+<div>
+
+        <Cards/>
+        </div>
+        </>
   );
 }
+
