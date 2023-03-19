@@ -9,12 +9,9 @@ const NavBar = () => {
       <button className={style.bottInicio}>
         Inicio
       </button>
-      
-      
       <button className={style.bottProf}>
         Centro
       </button>
-      
       <button className={style.bottContacto}>
         Contacto
       </button>
