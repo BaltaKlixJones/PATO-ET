@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import inicio from "../../Imagenes/inicio.png";
+import Reseñas from "../../Components/Reseñas/Reseñas";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           reiciendis cupiditate debitis cum ipsum!
         </p>
       </div>
+     
     </div>
   );
 }
