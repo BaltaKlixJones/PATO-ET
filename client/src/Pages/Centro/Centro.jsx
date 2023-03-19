@@ -1,16 +1,26 @@
-import React from 'react';
-import Location from '../Location /Location';
+import React from "react";
+import Location from "../Location /Location";
 
 export default function Centro() {
-    return (
-        <>
-        <div>
-        <h1>Centro</h1>
-        </div>
+  return (
+    <>
+      <div>
+        <h1>P.A.T.O</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          assumenda unde nemo soluta repellat eaque vel deserunt similique dolor
+          quisquam veniam dolore asperiores eveniet atque, ex optio error at!
+          Similique?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          assumenda unde nemo soluta repellat eaque vel deserunt similique dolor
+          quisquam veniam dolore asperiores eveniet atque, ex optio error at!
+          Similique?
+        </p>
+      </div>
 
-        <div>
+      <div>
         <Location />
-        </div>
-        </>
-    );
+      </div>
+    </>
+  );
 }

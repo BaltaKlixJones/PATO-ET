@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     background-color: rgb(106, 195, 195);
 }
 
@@ -13,7 +13,7 @@
 .bottQS,
 .bottCursos{
     background-color: transparent;
-    width: 80%;
+    width: 200px;
     height: 3rem;
     display: inline-flex;
     justify-content: center;
@@ -50,3 +50,53 @@
     transform: scale(1.1);
     transform-origin: center;
 }
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:-webkit-any-link:focus {
+    cursor: pointer;
+    color: #545353;
+    
+    transform: scale(1.1);
+    transform-origin: center;
+}
+
+/* .menuInicio {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 2;
+    margin-left: 50px;
+  }
+  .menuInicio ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menuInicio li {
+    margin: 0.5rem 0;
+  }
+  .menuInicio a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+  }
+  .menuInicio a:hover {
+    color: #000;
+  }
+  .bottInicio:hover .menuInicio {
+    display: block;
+  } */
+
+  

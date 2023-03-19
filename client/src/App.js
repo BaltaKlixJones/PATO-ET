@@ -14,9 +14,9 @@ import Centro from "./Pages/Centro/Centro";
 function App() {
   return (
     <div className="App">
+     <BrowserRouter>
       <Head/>
       <NavBar/>
-     <BrowserRouter>
       <Route exact path="/" component={Home} />
       <Route exact path="/" component={Location} />
       <Route exact path="/" component={Reseñas} />
