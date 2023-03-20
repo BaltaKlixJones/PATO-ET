@@ -9,8 +9,8 @@ const Form = () => {
     const dispatch = useDispatch();
     const history = useHistory();
   
-    const pato = useSelector((state) => state.pato);
-    console.log(pato);
+    const Pato = useSelector((state) => state.pato);
+    console.log(Pato);
   
     const [form, setForm] = useState({
       name: "",
@@ -19,17 +19,13 @@ const Form = () => {
     });
   
     const handleSubmit = (event) => {
-      event.preventDefault(); // Evita el comportamiento por defecto del formulario
+      event.preventDefault(); 
   
-      // Itera sobre cada objeto en el array pato para verificar si hay una coincidencia
-      const match = pato.some((p) => {
-        return form.name === p.name && form.lastName === p.lastName && form.email === p.email;
-      });
-  
-      if (match) {
-        history.push("/"); // Redirecciona a la página de inicio
+      
+      if (form.name === Pato.name && form.lastName === Pato.lastName && form.email === Pato.email) {
+        history.push("/"); 
       } else {
-        // Aquí manejas el caso en que los valores no coinciden
+        
         alert("Los valores ingresados no son correctos");
       }
     };
