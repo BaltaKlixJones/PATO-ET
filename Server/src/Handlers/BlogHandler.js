@@ -52,15 +52,7 @@ const deleteBlogHandler = async (req, res) => {
     }
   };
   
-  const deleteBlogHandler = async (req, res) => {
-      const { id } = req.params;
-      try {
-        await deleteBlogController(id);
-        res.status(200).json({ message: "Post deleted" });
-      } catch (error) {
-        res.status(400).json({ error: error.message });
-      }
-    };
+
   
   module.exports = {
     getBlogHandler,
