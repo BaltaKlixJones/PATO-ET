@@ -7,6 +7,8 @@ const {
 } = require("../controllers/ProfController.js");
 
 
+
+
 const getProfessionalHandler = async (req, res) => {
   try {
     const professional = await getProfessionalController();
