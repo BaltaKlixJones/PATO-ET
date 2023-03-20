@@ -16,8 +16,12 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.21",
     "pg": "^8.10.0",
     "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6"
   }
 }
