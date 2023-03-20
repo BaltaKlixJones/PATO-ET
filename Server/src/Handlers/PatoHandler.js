@@ -1,4 +1,4 @@
-const Pato = require("../Models/Pato");
+
 
 const {
   getPatoController,
