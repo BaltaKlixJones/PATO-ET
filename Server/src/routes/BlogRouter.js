@@ -4,7 +4,9 @@ const {
     postBlogHandler,
     putBlogHandler,
     deleteBlogHandler
+
 } = require("../handlers/BlogHandler");
+
 const blogRouter = Router();
 
 blogRouter.get("/", getBlogHandler);

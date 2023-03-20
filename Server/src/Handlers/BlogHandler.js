@@ -41,18 +41,30 @@ const putBlogHandler = async (req, res) => {
 };
 
 const deleteBlogHandler = async (req, res) => {
+
     const { id } = req.params;
+  
     try {
-      await deleteBlogController(id);
-      res.status(200).json({ message: "Post deleted" });
+      await putBlogController(id, req.body);
+      return res.status(200).json({ message: "Post updated" });
     } catch (error) {
       res.status(400).json({ error: error.message });
     }
   };
-
-module.exports = {
-  getBlogHandler,
-  postBlogHandler,
-  putBlogHandler,
-  deleteBlogHandler
-};
+  
+  const deleteBlogHandler = async (req, res) => {
+      const { id } = req.params;
+      try {
+        await deleteBlogController(id);
+        res.status(200).json({ message: "Post deleted" });
+      } catch (error) {
+        res.status(400).json({ error: error.message });
+      }
+    };
+  
+  module.exports = {
+    getBlogHandler,
+    postBlogHandler,
+    putBlogHandler,
+    deleteBlogHandler
+  };
