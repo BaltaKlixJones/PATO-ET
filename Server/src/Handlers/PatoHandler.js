@@ -5,7 +5,7 @@ const {
   getIDPatoController,
   postPatoController,
   putPatoController,
-} = require("../Controllers/PatoController.js");
+} = require("../controllers/PatoController.js");
 
 const getPatoHandler = async (req, res) => {
   try {
