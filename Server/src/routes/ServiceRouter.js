@@ -5,7 +5,7 @@ const {
   deleteServiceHandler,
   postServiceHandler,
   putServiceHandler,
-} = require("../handlers/ServiceHandler");
+} = require("../handlers/ServiceHandler.js")
 const serviceRouter = Router();
 
 serviceRouter.get("/", getServiceHandler);

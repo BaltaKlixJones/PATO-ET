@@ -4,7 +4,7 @@ const {
   deleteService,
   putService,
   getByIdService,
-} = require("../controllers/ServiceControllers");
+} = require("../controllers/ServiceControllers.js");
 
 const postServiceHandler = async (req, res) => {
   const { name, description, ProfessionalId } = req.body;
