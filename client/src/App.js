@@ -4,11 +4,11 @@ import { Route, BrowserRouter } from "react-router-dom";
 import Head from "./Pages/Head/Head";
 import {Home} from "./Pages/Home";
 import NavBar from "./Components/NavBar/NavBar";
-/* import axios from "axios"; */
-/* axios.defaults.baseURL = "http://localhost:3001/"; */
 import Reseñas from "./Components/Reseñas/Reseñas";
 import Location from "./Pages/Location /Location";
 import Centro from "./Pages/Centro/Centro";
+import axios from "axios"; 
+axios.defaults.baseURL = "https://back-pato-et-production.up.railway.app/"; 
 
 
 function App() {
