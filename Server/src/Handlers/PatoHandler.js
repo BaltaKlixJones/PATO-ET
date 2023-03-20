@@ -1,11 +1,11 @@
-const Pato = require("../Models/Pato");
+
 
 const {
   getPatoController,
   getIDPatoController,
   postPatoController,
   putPatoController,
-} = require("../Controllers/PatoController.js");
+} = require("../controllers/PatoController.js");
 
 const getPatoHandler = async (req, res) => {
   try {
