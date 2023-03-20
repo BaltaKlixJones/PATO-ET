@@ -6,7 +6,7 @@ const {
   deleteProfessionalController
 } = require("../controllers/ProfController.js");
 
-
+const Professionals = require("../models/Professionals.js");
 
 
 const getProfessionalHandler = async (req, res) => {
