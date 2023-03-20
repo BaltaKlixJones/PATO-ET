@@ -3,7 +3,7 @@ const {
     postBlogController,
     putBlogController,
     deleteBlogController
-  } = require("../Controllers/BlogController.js");
+  } = require("../controllers/BlogController.js");
   
   const getBlogHandler = async (req, res) => {
     try {
