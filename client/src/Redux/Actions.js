@@ -10,7 +10,7 @@ export const getProfessionals = () => {
     const profs = bdInfo.data;
     dispatch({ type: GET_PROFESSIONALS, payload: profs });
   };
-};
+}
 
 export const GET_SERVICE = "GET_SERVICE";
 
