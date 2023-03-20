@@ -18,7 +18,6 @@ export default function Home() {
           reiciendis cupiditate debitis cum ipsum!
         </p>
       </div>
-     
     </div>
   );
 }
