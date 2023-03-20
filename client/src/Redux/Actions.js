@@ -39,3 +39,14 @@ export const getService = () => {
   };
 };
 
+/* ----------------------------BLOG--------------------------------- */
+export const GET_BLOG = "GET_BLOG";
+
+
+export const getBlog = () => {
+  return async function (dispatch) {
+    const bdInfo = await axios.get("/Blog");
+    const blog = bdInfo.data;
+    dispatch({ type: GET_BLOG, payload: blog });
+  };
+}

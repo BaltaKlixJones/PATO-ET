@@ -1,9 +1,10 @@
-import { GET_PATO, GET_PROFESSIONALS, GET_SERVICE } from "./Actions";
+import { GET_PATO, GET_PROFESSIONALS, GET_SERVICE, GET_BLOG } from "./Actions";
 
 const initialState = {
   pato: [],
   allProfessionals: [],
   allService: [],
+  blog : []
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -27,6 +28,11 @@ const rootReducer = (state = initialState, action) => {
           ...state,
           allService: action.payload,
         };
+        case GET_BLOG:
+          return {
+            ...state,
+            blog: action.payload,
+          };
 
     default:
       return {
