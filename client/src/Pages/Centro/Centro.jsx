@@ -1,7 +1,6 @@
-
-import React from 'react';
-import Location from '../Location /Location';
-import Cards from '../../Components/Cards/Cards';
+import React from "react";
+import Location from "../Location /Location";
+import Cards from "../../Components/Cards/Cards";
 
 
 export default function Centro() {
@@ -13,22 +12,19 @@ export default function Centro() {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
           assumenda unde nemo soluta repellat eaque vel deserunt similique dolor
           quisquam veniam dolore asperiores eveniet atque, ex optio error at!
-          Similique?
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
-          assumenda unde nemo soluta repellat eaque vel deserunt similique dolor
-          quisquam veniam dolore asperiores eveniet atque, ex optio error at!
-          Similique?
+          Similique? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Commodi assumenda unde nemo soluta repellat eaque vel deserunt
+          similique dolor quisquam veniam dolore asperiores eveniet atque, ex
+          optio error at! Similique?
         </p>
       </div>
 
       <div>
         <Location />
-        </div>
-<div>
-
-        <Cards/>
-        </div>
-        </>
+      </div>
+      <div>
+        <Cards />
+      </div>
+    </>
   );
 }
-
