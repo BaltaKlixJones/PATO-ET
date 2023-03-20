@@ -3,7 +3,7 @@ const {
     getPatoHandler,
     postPatoHandler,
     putPatoHandler
-} = require("../Handlers/PatoHandler");
+} = require("../handlers/PatoHandler");
 const professionalRouter = Router();
 
 professionalRouter.get("/", getPatoHandler);

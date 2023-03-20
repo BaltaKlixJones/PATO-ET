@@ -5,7 +5,7 @@ const {
   deleteProfessionalHandler,
   postProfessionalHandler,
   putProfessionalHandler,
-} = require("../Handlers/ProfHandler");
+} = require("../handlers/ProfHandler");
 const professionalRouter = Router();
 
 professionalRouter.get("/", getProfessionalHandler);
