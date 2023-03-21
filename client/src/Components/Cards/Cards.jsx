@@ -17,8 +17,6 @@ const Cards = () => {
 
   return (
     <div className={style.cardsContainer}>
-      <div className={style.borderCards}></div>
-
       {allProfessionals.map(({ id, name, profession, description, extra, otroextra, image }) => {
         return (
           <Card
