@@ -17,7 +17,10 @@ const Blog = () => {
 
   return (
     <div className="blogcontainer">
-        <h2>Canal de Youtube </h2>
+      <br />
+      <br />
+      <br />
+      <h2></h2>
       <div className="blogVideo">
         <iframe
           width="860"
@@ -28,6 +31,17 @@ const Blog = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
+        ></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100056806724891%2Fvideos%2F950730886285154%2F&show_text=false&width=267&t=0"
+          width="267"
+          height="415"
+          style={{border:"none", overFlow:"hidden", marginLeft:"2%"}}
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"
         ></iframe>
       </div>
       <div className="blogCard">
