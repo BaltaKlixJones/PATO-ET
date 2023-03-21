@@ -19,16 +19,17 @@ const Cards = () => {
     <div className={style.cardsContainer}>
       <div className={style.borderCards}></div>
 
-      {allProfessionals.map(({ id, name, lastName, profession, description, image }) => {
+      {allProfessionals.map(({ id, name, profession, description, extra, otroextra, image }) => {
         return (
           <Card
             id={id}
             key={id}
             image={image}
             name={name}
-            lastName={lastName}
             profession={profession}
             description={description}
+            extra={extra}
+            otroextra={otroextra}
           />
         );
       })}
