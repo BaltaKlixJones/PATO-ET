@@ -16,22 +16,32 @@ const Cards = () => {
   }, [dispatch]);
 
   return (
+    <>
+    <div className={style.titulo}>
+
+    <h2>Profesionales</h2>
+    </div>
+    <div className={style.texto}>
+    <h3>Conoce a nuestros profesionales y elige el que más se adapte a tus necesidades.</h3>
+    </div>
     <div className={style.cardsContainer}>
+
       {allProfessionals.map(({ id, name, profession, description, extra, otroextra, image }) => {
         return (
           <Card
-            id={id}
-            key={id}
-            image={image}
-            name={name}
-            profession={profession}
-            description={description}
-            extra={extra}
-            otroextra={otroextra}
+          id={id}
+          key={id}
+          image={image}
+          name={name}
+          profession={profession}
+          description={description}
+          extra={extra}
+          otroextra={otroextra}
           />
-        );
-      })}
+          );
+        })}
     </div>
+        </>
   );
 };
 

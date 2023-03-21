@@ -2,6 +2,7 @@ import React from "react";
 import "./BlogCard.css";
 
 const BlogCard = ({ id, description, image, title, date }) => {
+
   return (
     <div className="cardBox">
       <div className="card">
@@ -12,6 +13,7 @@ const BlogCard = ({ id, description, image, title, date }) => {
           <p>{title}</p>
           <p>{description}</p>
           <div>{date}</div>
+
         </div>
       </div>
     </div>
