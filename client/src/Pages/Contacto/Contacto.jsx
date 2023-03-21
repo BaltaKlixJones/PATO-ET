@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 import { getPato } from "../../Redux/Actions";
 import style from "./Contacto.module.css"
 
@@ -25,12 +26,17 @@ const Contacto = () => {
           <div className={style.contactCard}>
             <div className={style.infoCard}>
                 <h2 className={style.name}>{Pato[0].name}</h2>
-                <p className={style.profession}>{Pato[0].profession}</p>
+                <h3 className={style.profession}>{Pato[0].profession}</h3>
                 <p className={style.description}>{Pato[0].description}</p>
                 <p className={style.extra}>{Pato[0].extra}</p>
                 {/* <p className={style.otroextra}>{Pato[0].otroextra}</p> */}
                 <p className={style.phone}>Cel: {Pato[0].phone}</p>
-                <p className={style.email}>E-mail: {Pato[0].email}</p>
+                <p className={style.email} style={{color:"black"}}>E-mail: 
+                <a href= "mailto:patriciadesalta_9@hotmail.com" target="_blank">
+                <p style={{color:" rgb(63, 121, 230)"}}> {Pato[0].email} </p>
+                </a>
+                
+                </p>
             </div>
         </div>
       ) : (
