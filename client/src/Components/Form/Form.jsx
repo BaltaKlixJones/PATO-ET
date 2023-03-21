@@ -13,18 +13,17 @@ const Form = () => {
   console.log(Pato);
 
   const [form, setForm] = useState({
-    name: "",
     email: "",
     password: "",
   });
 
-  /* const handleSubmit = (event) => {
+   const handleSubmit = (event) => {
     event.preventDefault();
-    if (!form.name || !form.email || !form.password) {
+    if (!form.email || !form.password) {
       alert("Complete todos los campos");
     } else if (!/^\S+@\S+\.\S+$/.test(form.email)) {
       alert("Ingrese un email válido");
-    } else if (form.name === Pato.name && form.email === Pato.email && form.password === Pato.password) {
+    } else if (form.email === Pato[0].email && form.password === Pato[0].password) {
       history.push("/");
     } else {
       alert("Los valores ingresados no son correctos");
@@ -34,28 +33,7 @@ const Form = () => {
   const handleChange = (event) => {
     const { name, value } = event.target;
     setForm({ ...form, [name]: value });
-  }; */
-
-  const [error, setError] = useState("");
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    if (!form.name || !form.email || !form.password) {
-      setError("Complete todos los campos");
-    } else if (!/^\S+@\S+\.\S+$/.test(form.email)) {
-      setError("Ingrese un email válido");
-    } else if (form.name === Pato.name && form.email === Pato.email && form.password === Pato.password) {
-      history.push("/");
-    } else {
-      setError("Los valores ingresados no son correctos");
-    }
-  };
-
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-    setForm({ ...form, [name]: value });
-    setError("");
-  };
+  }; 
 
   useEffect(() => {
     dispatch(getPato());
@@ -65,10 +43,8 @@ const Form = () => {
       <div>
         <form onSubmit={handleSubmit} className={style.form}>
           <span className={style.signup}>Sign Up</span>
-          <input type="name" name="name" placeholder="Name" value={form.name} onChange={handleChange} className={style.formInput}/>
           <input type="email" name="email" placeholder="Email" value={form.email} onChange={handleChange} className={style.formInput}/>
           <input type="password" name="password" placeholder="Password" value={form.password} onChange={handleChange} className={style.formInput}/>
-          {error && <div className={style.error}>{error}</div>} {/* Si se usa el ALERT quitar esta linea */}
           <button type="submit" className={style.formSubmit}>Sign up</button>
         </form>
       </div>
