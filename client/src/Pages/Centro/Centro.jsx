@@ -9,7 +9,7 @@ export default function Centro() {
     <>
       <div>
         <h1>P.A.T.O</h1>
-        <p>
+        <p style={{margin:"30px"}}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
           assumenda unde nemo soluta repellat eaque vel deserunt similique dolor
           quisquam veniam dolore asperiores eveniet atque, ex optio error at!
