@@ -1,6 +1,7 @@
 import React from "react";
 import Location from "../Location /Location";
 import Cards from "../../Components/Cards/Cards";
+import PatoRender from "../../Components/PatoRender/PatoRender";
 
 
 export default function Centro() {
@@ -21,6 +22,9 @@ export default function Centro() {
 
       <div>
         <Location />
+      </div>
+      <div>
+        <PatoRender/>
       </div>
       <div>
         <Cards />
