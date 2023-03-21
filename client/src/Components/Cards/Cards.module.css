@@ -4,3 +4,20 @@
   justify-content: center;
   margin-top: 3rem;
 }
+
+.titulo{
+  font-size: 1.5em;
+  margin-left: 20px;
+  
+  padding: 10px 7px 0;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.texto {
+  font-size: 1em;
+  margin-left: 20px;
+  padding: 10px 7px 0;
+  justify-content: flex-start;
+  display: flex;
+}
