@@ -25,7 +25,7 @@ const Cards = () => {
     <h3>Conoce a nuestros profesionales y elige el que más se adapte a tus necesidades.</h3>
     </div>
     <div className={style.cardsContainer}>
-      <div className={style.borderCards}></div>
+
       {allProfessionals.map(({ id, name, profession, description, extra, otroextra, image }) => {
         return (
           <Card

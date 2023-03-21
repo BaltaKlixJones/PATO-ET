@@ -1,4 +1,6 @@
-.blogcontainer {
-    margin: 40px;
-    
+.blogcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
 }

@@ -7,6 +7,7 @@ import { useSelector, useDispatch } from "react-redux";
 import CardBlog from "../BlogCard/BlogCard";
 import profile from "../.././Imagenes/profile.jpg";
 
+
 const Blog = () => {
   const blog = useSelector((state) => state.blog);
 
@@ -17,6 +18,7 @@ const Blog = () => {
 
   return (
     <div className="blogcontainer">
+
       <div className="blog">
         <h2>Canal de Youtube </h2>
         {/* <svg
@@ -53,6 +55,7 @@ const Blog = () => {
           </a> */}
         
         </div>
+
         {blog.map(({ id, title, description, image, date }) => {
           return (
             <CardBlog
@@ -65,7 +68,9 @@ const Blog = () => {
             />
           );
         })}
+
       </div>
+
     </div>
   );
 };
