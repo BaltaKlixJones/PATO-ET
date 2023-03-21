@@ -1,6 +1,13 @@
-.blogcontainer{
+.blogVideo{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.blogCard{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 3rem; 
+  margin-bottom: 3rem;
 }
