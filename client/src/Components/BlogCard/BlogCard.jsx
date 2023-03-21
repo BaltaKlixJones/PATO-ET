@@ -5,6 +5,8 @@ import "./BlogCard.css";
 
 const BlogCard = ({ id, description, image, title, date }) => {
     return (
+      
+        <div className="container">
         <div className="cardBox">
         <div className="card">
           <span className="text"><img src={image} className="card-image" alt="image" /></span>
@@ -13,6 +15,8 @@ const BlogCard = ({ id, description, image, title, date }) => {
             <p>{description}</p>
             <div>{date}</div>
           </div>
+        </div>
+        
         </div>
       
         </div>
