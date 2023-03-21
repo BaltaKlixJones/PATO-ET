@@ -1,0 +1,23 @@
+
+.admin {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .imagenAdmin {
+    flex: 1;
+    margin-left: 20px; /* ajusta el margen a tu gusto */
+  }
+  
+  .tituloAdmin {
+    flex: 1;
+  }
+  .imagenAdmin img {
+    width: 400px; /* ajusta el tamaño a tu gusto */
+    height: 500px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    
+  }
