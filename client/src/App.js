@@ -1,7 +1,7 @@
 import React from "react"
 import './App.css';
 import { Route, BrowserRouter } from "react-router-dom";
-import {Home, Location, Centro, Head, Admin} from "./Pages";
+import {Home, Location, Centro, Head, Admin, Contacto} from "./Pages";
 import NavBar from "./Components/NavBar/NavBar";
 import Reseñas from "./Components/Reseñas/Reseñas";
 import Blog from "./Components/Blog/Blog";
@@ -32,7 +32,9 @@ function App() {
       )} />
       <Route exact path="/Centro" component={Centro} />
       <Route exact path="/Blog" component={Blog} />
+      <Route exact path="/Contacto" component={Contacto} />
       <Route exact path="/Cursos" component={Cursos} />
+
     </BrowserRouter>
     </div>
   );
