@@ -6,13 +6,15 @@ export default function Location() {
   
 
   return (
-    <div>
-      <div>
-        <h1 style={{ marginLeft: "-1140px" }}>📌 Podés encontrarnos en :</h1>{" "}
-        <h2 style={{ marginBottom: "-40px" }}>
+    <div className="container">
+      <div className="encontrar" >
+        <h1 >📌 Podés encontrarnos en :</h1>{" "}
+        <div className="ubicacion">
+        <h2 >
           Salta - Argentina 🇦🇷 <br /> <br />
           Guillermo Alzaga S/N. Barrio portal de Lesser.
         </h2>
+        </div>
       </div>
       <div style={{ display: "flex", marginTop: "5%" }}>
         {/* <div style={{ flex: 1 }}>
