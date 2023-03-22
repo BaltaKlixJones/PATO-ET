@@ -1,8 +1,9 @@
 import React from "react";
 import "./Location.css";
+import APIKEY from "../../config";
 
 export default function Location() {
-  const APIKEY = "AIzaSyDQU1s1JY64YJYIeIZFqZbRGtfaJDaSn5U";
+  
 
   return (
     <div>
