@@ -5,7 +5,7 @@
     align-items: center;
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f400;
-    padding: 50px;
+    padding: 20px;
     
     position: relative;
     height: 100vh;
@@ -32,15 +32,13 @@
     
     margin-top: 30px;
     opacity: 1;
-    margin-bottom: 10px;
 }
   
   .description h1 {
     font-size: 40px;
     color: rgb(40, 67, 119);
    
-    margin-top: -40px;
-    margin-bottom: 20px;
+    margin-top: -5px;
 }
   
   .text p {
@@ -48,10 +46,10 @@
     color: #000000;
     text-align: justify;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-top: 100px;
     font-weight: bold;
     letter-spacing: 1px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   
   
