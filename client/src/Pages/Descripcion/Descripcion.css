@@ -1,4 +1,5 @@
 .containerDescription {
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,9 +7,8 @@
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f400;
     padding: 50px;
-    
     position: relative;
-    height: 100vh;
+    height: auto;
     justify-content: flex-start;
   }
   
@@ -19,7 +19,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("https://www.talleres8caracoles.com/wp-content/uploads/2020/08/estimulacion-temprana-min-scaled.jpg");
+    background-image: url("../../Imagenes/descripcion.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
