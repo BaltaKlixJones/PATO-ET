@@ -1,6 +1,6 @@
 .card {
-    width: 220px;
-    height: 400px;
+    width: 300px;
+    height: auto;
     background: #fff;
     border: 1px solid;
     border-radius: 6px;
@@ -13,15 +13,15 @@
  
   .cardImage {
     background-color: rgb(236, 236, 236);
-    width: 90%;
-    height: auto;
+    width: auto;
+    height: 200px;
     margin: auto;
     margin-top: 5px;
     border-radius: 6px 6px 0 0;
   }
   
   .cardImage:hover {
-    transform: scale(0.98);
+    transform: scale(1.01)
   }
 
   .name {
@@ -37,9 +37,7 @@
     padding: 10px 7px 0;
   }
   
-  .profession:hover {
-    cursor: pointer;
-  }
+ 
   
   .description {
     font-weight: 600;

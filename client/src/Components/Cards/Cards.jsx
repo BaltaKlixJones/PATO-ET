@@ -19,7 +19,7 @@ const Cards = () => {
     <>
     <div className={style.titulo}>
 
-    <h2 style={{marginBottom:"-12px"}}>Profesionales</h2>
+    <h2 style={{marginBottom:"-12px"}}> 👩‍⚕️ Profesionales</h2>
     </div>
     <div className={style.texto}>
     <h3>Conoce a nuestros profesionales y elige el que más se adapte a tus necesidades.</h3>
