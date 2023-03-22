@@ -2,9 +2,9 @@
     width: 70%;
     height: 250px;
     background: #fff;
-    border: 6px solid #f49fda;
+    border: 1px solid;
     padding: .4em;
-    border-radius: 6px;
+    border-radius: 20px;
     margin-left: 1rem;
     margin-bottom: 5rem;
     box-shadow: 0.3em 0.3em 0.7em rgba(0, 0, 0, 0.3);
