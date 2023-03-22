@@ -1,7 +1,16 @@
-.contacto {
+.contacto1 {
+  background-image: url("../../Imagenes/fondo\ pato.jpeg");
   margin-top: -40px;
+  height: 85vh;
+}
+
+
+
+.contacto {
+  margin-top: -8%;
   background-color: rgb(106, 195, 195);
   height: 50vh;
+  
 }
 
 .titulo{
