@@ -6,6 +6,8 @@ import style from "./Centro.module.css"
 
 
 export default function Centro() {
+
+  
   return (
     <div className={style.centro}>
       <div className={style.centro2}>
