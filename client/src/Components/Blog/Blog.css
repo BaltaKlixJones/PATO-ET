@@ -1,13 +1,27 @@
-.blogVideo{
+.blogBack {
+  margin-top: -1rem;
+  background-image: url("../../Imagenes/fondo\ pato.jpeg");
+  height: 100vh;
+}
+.blogBack1 {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 100vh;
+}
+
+.blogcontainer {
+  transform: translateY(4rem);
+  margin-bottom: 10rem;
+}
+.blogVideo {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
 }
 
-.blogCard{
+.blogCard {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 3rem; 
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
