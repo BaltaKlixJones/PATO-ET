@@ -16,11 +16,9 @@ const Blog = () => {
   }, [dispatch]);
 
   return (
+    <div  className="blogBack">
+    <div className="blogBack1">
     <div className="blogcontainer">
-      <br />
-      <br />
-      <br />
-      <h2></h2>
       <div className="blogVideo">
         <iframe
           width="860"
@@ -58,6 +56,8 @@ const Blog = () => {
           );
         })}
       </div>
+    </div>
+    </div>
     </div>
   );
 };
