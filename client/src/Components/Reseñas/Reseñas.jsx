@@ -4,7 +4,7 @@ export default function Reseñas() {
     return (
         <div className="container" >
         <div className="reseñas">
-          <h1 style={{marginLeft:"-1300px"}}>Algunas opiniones</h1>
+          <h1 style={{marginLeft:"-1300px", marginTop:"80px"}}>Algunas opiniones</h1>
           <p style={{marginLeft:"-980px"}}>¡ Nos importa mucho las opiniones de nuestro centro para poder seguir mejorando !</p>
       
           <div className="container"> 

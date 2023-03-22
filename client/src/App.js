@@ -24,13 +24,13 @@ function App() {
           <Reseñas {...props} />
         </>
       )} />
-      <Route exact path="/Admin" render={(props) => (
+      {/* <Route exact path="/Admin" render={(props) => (
         <>
           <Admin {...props} />
           <Location {...props} />
           <Reseñas {...props} />
         </>
-      )} />
+      )} /> */}
       <Route exact path="/Centro" component={Centro} />
       <Route exact path="/Blog" component={Blog} />
       <Route exact path="/Contacto" component={Contacto} />

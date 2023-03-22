@@ -10,7 +10,8 @@ export default function Centro() {
     <div className={style.centro}>
       <div className={style.centro2}>
       <div>
-        <h1 className={style.h1Centro}>P.A.T.O</h1>
+        <h1 className={style.h1Centro}>P.A.T.O </h1>
+        <h3>Progreso con Amor, Trabajo Y Orden </h3>
         <p style={{margin:"30px"}}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
           assumenda unde nemo soluta repellat eaque vel deserunt similique dolor
@@ -23,13 +24,13 @@ export default function Centro() {
       </div>
 
       <div>
-        <Location />
-      </div>
-      <div>
         <PatoRender/>
       </div>
       <div>
         <Cards />
+      </div>
+      <div>
+        <Location />
       </div>
       </div>
     </div>
