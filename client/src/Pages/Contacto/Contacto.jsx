@@ -40,7 +40,7 @@ const Contacto = () => {
             </div>
         </div>
       ) : (
-        <div>No se encontró el pato</div>
+        <div></div>
       )}
     </div>
   );
