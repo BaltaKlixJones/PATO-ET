@@ -1,55 +1,55 @@
 .card {
-    width: 80%;
-    height: 200px;
-    background: #93bdff;
+    width: 70%;
+    height: 250px;
+    background: #fff;
+    border: 6px solid #f49fda;
     padding: .4em;
     border-radius: 6px;
     margin-left: 1rem;
     margin-bottom: 5rem;
+    box-shadow: 0.3em 0.3em 0.7em rgba(0, 0, 0, 0.3);
   }
   
   .cardImage {
     display: flex;
     background-color: rgb(236, 236, 236);
-    height: 190px;
-    border-radius: 6px 6px 0 0;
-    margin-top: 5px;
+    height: 230px;
+    border-radius: 6px;
+    margin: 10px;
   }
   
   .cardImage:hover {
     transform: scale(0.98);
   }
-
+  
   .infoCont{
-    margin-top: -150px;
+    margin-top: -13rem;
+  }
+  
+  .name {
+    font-size: 2rem;
   }
   
   .profession {
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 1rem;
     font-weight: 600;
     color: rgb(63, 121, 230);
     padding: 10px 7px 0;
   }
   
-  .profession:hover {
-    cursor: pointer;
-  }
-  
   .description {
+    font-size: 1rem;
     font-weight: 600;
     color: rgb(88, 87, 87);
     padding: 7px;
   }
-  
-  .description:hover {
-    cursor: pointer;
+
+  .phone{
+    font-size: 1rem;
+  }
+
+  .extra{
+    font-size: 1rem;
   }
   
-  .name {
-    font-weight: 600;
-  }
-  
-  .name:hover {
-    cursor: pointer;
-  }
