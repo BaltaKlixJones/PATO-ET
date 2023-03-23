@@ -1,8 +1,20 @@
 import React from "react";
 import style from "./CursoCard.module.css";
+import Swal from "sweetalert2";
 
 
 const CursoCard = ({ id, name, profession, description, extra, otroextra, image }) => {
+
+const alert = () => {
+  Swal .fire({
+    title: 'Estamos trabajando',
+    text: "¡Pronto estará disponible!",
+    icon: 'info',
+    confirmButtonColor: '#19a501fd',
+    confirmButtonText: 'Okey'
+  } )
+}
+
   return (
     <div className={style.cardCont}>
     <div className={style.pack_card}>
@@ -37,7 +49,7 @@ const CursoCard = ({ id, name, profession, description, extra, otroextra, image 
           <div className={style.price_container}>
             <span className={style.price}>10 USD / mes</span>
           </div>
-          <button className={style.btn} onClick={() => alert("Estamos trabajando para desarrollar estos cursos")} href="#">Comprar curso</button>
+          <button className={style.btn} onClick={alert} href="#">Comprar curso</button>
         </div>
       </div>
       <div className={style.pack_card}>
@@ -72,7 +84,7 @@ const CursoCard = ({ id, name, profession, description, extra, otroextra, image 
           <div className={style.price_container}>
             <span className={style.price}>50 USD / 6 meses</span>
           </div>
-          <button className={style.btn} onClick={() => alert("Estamos trabajando para desarrollar estos cursos")} href="#">Comprar curso</button>
+          <button className={style.btn} onClick={alert} href="#">Comprar curso</button>
         </div>
       </div>
       <div className={style.pack_card}>
@@ -107,7 +119,7 @@ const CursoCard = ({ id, name, profession, description, extra, otroextra, image 
           <div className={style.price_container}>
             <span className={style.price}>100 USD</span>
           </div>
-          <button className={style.btn} onClick={() => alert("Estamos trabajando para desarrollar estos cursos")} href="#">Comprar curso</button>
+          <button className={style.btn} onClick={alert} href="#">Comprar curso</button>
         </div>
       </div>
       </div>
