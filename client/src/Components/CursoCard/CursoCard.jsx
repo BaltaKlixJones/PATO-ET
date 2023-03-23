@@ -9,33 +9,33 @@ const CursoCard = ({ id, name, profession, description, extra, otroextra, image 
           <div className={style.banner}>
             <span className={style.banner_tag}>proximamente</span>
           </div>
-          <div className={style.pack_name}>Cursos</div>
+          <div className={style.pack_name}>Online</div>
 
-          <p className={style.description}>Trabajamos para desarrollar más cursos y talleres</p>
+          <p className={style.description}>Podrás tener acceso limitado a todos los cursos con los siguientes beneificios</p>
 
           <div className={style.lists}>
             <div className={style.list}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              <span>curso 1</span>
+              <span > Acceso a todos los cursos</span>
             </div>
             <div className={style.list}>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-              </svg>
-              <span>curso 2</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+              <span>Acceso ilimitado </span>
             </div>
             <div className={style.list}>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              <span>curso 3</span>
+              <span>Consultas sobre el contenido </span>
             </div>
         </div>
         <div className={style.bottom}>
           <div className={style.price_container}>
-            <span className={style.price}> $1000/mes</span>
+            <span className={style.price}>10 USD / mes</span>
           </div>
           <button className={style.btn} onClick={() => alert("Estamos trabajando para desarrollar estos cursos")} href="#">Comprar curso</button>
         </div>
@@ -44,33 +44,33 @@ const CursoCard = ({ id, name, profession, description, extra, otroextra, image 
           <div className={style.banner}>
             <span className={style.banner_tag}>proximamente</span>
           </div>
-          <div className={style.pack_name}>Cursos</div>
+          <div className={style.pack_name}>Online</div>
 
-          <p className={style.description}>Trabajamos para desarrollar más cursos y talleres</p>
+          <p className={style.description}>Podrás tener acceso limitado a todos los cursos con los siguientes beneificios</p>
 
           <div className={style.lists}>
             <div className={style.list}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              <span>curso 1</span>
+              <span>Acceso a todos los cursos</span>
+            </div>
+            <div className={style.list}>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+              <span>Acceso ilimitado </span>
             </div>
             <div className={style.list}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              <span>curso 2</span>
-            </div>
-            <div className={style.list}>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-              </svg>
-              <span>curso 3</span>
+              <span>Consultas sobre el contenido</span>
             </div>
         </div>
         <div className={style.bottom}>
           <div className={style.price_container}>
-            <span className={style.price}> $5.000/ <br/>6 meses</span>
+            <span className={style.price}>50 USD / 6 meses</span>
           </div>
           <button className={style.btn} onClick={() => alert("Estamos trabajando para desarrollar estos cursos")} href="#">Comprar curso</button>
         </div>
@@ -79,33 +79,33 @@ const CursoCard = ({ id, name, profession, description, extra, otroextra, image 
           <div className={style.banner}>
             <span className={style.banner_tag}>proximamente</span>
           </div>
-          <div className={style.pack_name}>Cursos</div>
+          <div className={style.pack_name}>Online</div>
 
-          <p className={style.description}>Trabajamos para desarrollar más cursos y talleres</p>
+          <p className={style.description}>Podrás tener acceso ilimitado a todos los cursos con un único pago y los siguientes beneificios</p>
 
           <div className={style.lists}>
             <div className={style.list}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              <span>curso 1</span>
+              <span>Acceso a todos los cursos</span>
             </div>
             <div className={style.list}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              <span>curso 2</span>
+              <span>Acceso ilimitado</span>
             </div>
             <div className={style.list}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              <span>curso 3</span>
+              <span>Consultas sobre el contenido</span>
             </div>
         </div>
         <div className={style.bottom}>
           <div className={style.price_container}>
-            <span className={style.price}> $10.000/año</span>
+            <span className={style.price}>100 USD</span>
           </div>
           <button className={style.btn} onClick={() => alert("Estamos trabajando para desarrollar estos cursos")} href="#">Comprar curso</button>
         </div>
