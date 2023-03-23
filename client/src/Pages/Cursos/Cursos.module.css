@@ -14,3 +14,9 @@
     width: 100vw;
     margin-top: -15rem;
   }
+
+  .cursotitulo {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 20px;
+  }

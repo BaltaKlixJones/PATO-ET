@@ -7,14 +7,17 @@ import { useSelector, useDispatch } from "react-redux";
 import CardBlog from "../BlogCard/BlogCard";
 import youtube from "../.././Imagenes/youtube.png";
 import galeria from "../.././Imagenes/galeria.png";
+import Loading from "../../Pages/Loading/Loading";
 
 const Blog = () => {
   const blog = useSelector((state) => state.blog);
+  const [loading, setLoading] = useState(true);
 
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getBlog());
+    dispatch(getBlog()).then(() => setLoading(false));
   }, [dispatch]);
+  
 
   return (
     <div  className="blogBack">
@@ -24,10 +27,15 @@ const Blog = () => {
       <h1> Videos </h1>
       </div>
       <div className="subtitulo">
-      <h3> En mi canal de Youtube podés ver mas videos ! </h3>
+      <h3> En mi canal de Youtube podés ver mas videos sobre el centro y cómo trabajamos </h3>
       </div>
+      {loading ? (
+        <Loading />
+      ) : (
+        
     <div className="blogcontainer">
       <div className="blogVideo">
+        
         <iframe
           width="860"
           height="415"
@@ -50,13 +58,14 @@ const Blog = () => {
           allowFullScreen="true"
         ></iframe>
       </div>
+    
       <div className="tituloBlog">
       <img style={{ height:"60px", marginTop:"10px", marginRight:"10px"}} src={galeria} alt="" />
       <h1>Blog</h1>
       </div>
       <div className="subtitulo">
 
-      <h3>Aquí podrás ver algunas fotos de nuestro equipo y nuestro centro</h3>
+      <h3>Aquí podrás ver algunas fotos de nuestros pacientes, equipo y centro </h3>
       </div>
       <div className="blogCard">
         {blog.map(({ id, title, description, image, date }) => {
@@ -72,7 +81,26 @@ const Blog = () => {
           );
         })}
       </div>
+      <a
+            href="https://www.instagram.com/p.a.t.o_estimulacion/"
+            target="_blank"
+          >
+            <img
+              style={{
+                height: "45px",
+                width: "45px",
+                borderRadius: "50%",
+               marginBottom:"-15px"
+                
+              }}
+              src="https://static.vecteezy.com/system/resources/previews/016/716/448/non_2x/instagram-icon-free-png.png"
+              alt=""
+            />
+          </a>
+      <h3 style={{marginBottom:"100px"}} >¡ Podes ver más fotos y videos en nuestro instagram !
+      </h3>
     </div>
+  )}
     </div>
     </div>
   );
