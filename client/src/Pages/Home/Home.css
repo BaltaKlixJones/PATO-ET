@@ -4,7 +4,11 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(106, 195, 195, 0.284);
+    /* background-color: rgba(106, 195, 195, 0.284); */
+    background-image: url("../../Imagenes/fondoHomee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: auto;
     max-height: auto;
   }
@@ -16,8 +20,14 @@
   
   .titulo-home {
     margin-top: 50px;
+    padding-right: 40px;
     flex: 1;
+    margin-left: 30px;
     margin-bottom: 110px;
+    background-color: white;
+    border: 1.5px solid rgb(168, 0, 246);
+    border-radius: 10px;
+    letter-spacing: .5px;
   }
   .imagen-home img {
     width: 400px; /* ajusta el tamaño a tu gusto */

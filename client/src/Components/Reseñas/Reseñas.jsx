@@ -3,9 +3,12 @@ import "./Reseñas.css"
 export default function Reseñas() {
     return (
         <div className="container1" >
+          <div className="textos">
+          <h1>💬 Algunas opiniones</h1>
+          <p> ¡Nos importa mucho las opiniones de nuestro centro para poder seguir mejorando !</p>
+
+          </div>
         <div className="reseñas">
-          <h1 style={{marginLeft:"-1300px", marginTop:"80px"}}>Algunas opiniones</h1>
-          <p style={{marginLeft:"-980px"}}>¡ Nos importa mucho las opiniones de nuestro centro para poder seguir mejorando !</p>
       
           <div className="container"> 
             <div className="reseña">
@@ -43,6 +46,9 @@ export default function Reseñas() {
            
           </div>
         </div>
+       
+          <h3 style={{color:"black", marginBottom:"100px"}}>¡Puedes ver más opiniones haciendo click  <a href="https://www.google.com/search?hl=es-AR&gl=ar&q=P.a.t.o+-Centro+de+Estimulaci%C3%B3n+Temprana+y+Neurorehabilitacion+Integral+(de+Lic.+Patricia+Jones),+Salta&ludocid=1068908539001127313&lsig=AB86z5WF4gAMjVYyC91s3J6aHM7w&hl=es&gl=AR#lrd=0x941bc17ade5a5d03:0xed586a7248b4191,1" target="_blank" style={{color:"blue", textDecoration:"underline"}}>acá</a>!</h3>
+        
       </div>
     )
 }
