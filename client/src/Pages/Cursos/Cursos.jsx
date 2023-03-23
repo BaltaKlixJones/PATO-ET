@@ -3,6 +3,7 @@ import style from "./Cursos.module.css";
 export default function Cursos() {
   return (
     <div className={style.container}>
+    <div className={style.container2}>
       <div className={style.titulo}>
         <h2>Cursos</h2>
         <p style={{margin:"30px"}}>Estamos trabajando para desarrollar cursos donde ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quae ipsam nihil. Perferendis adipisci ipsum eaque esse accusamus, similique aut eligendi, odio facere nisi, dolore expedita sint. Pariatur, veniam sed! </p>
@@ -17,6 +18,7 @@ export default function Cursos() {
         allowfullscreen
       ></iframe>
 
+    </div>
     </div>
   );
 }
