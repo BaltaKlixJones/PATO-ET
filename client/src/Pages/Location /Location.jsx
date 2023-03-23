@@ -8,21 +8,13 @@ export default function Location() {
   return (
     <div className="container">
       <div className="encontrar" >
-        <h1 >📌 Podés encontrarnos en :</h1>{" "}
-        <div className="ubicacion">
-        <h2 >
-          Salta - Argentina 🇦🇷 <br /> <br />
+        <h1 className="h1Local">📌 Podés encontrarnos en :</h1>
+        <h2 className="h2Text">
+          Salta - Argentina 🇦🇷 
           Guillermo Alzaga S/N. Barrio portal de Lesser.
         </h2>
-        </div>
       </div>
-      <div style={{ display: "flex", marginTop: "5%" }}>
-        {/* <div style={{ flex: 1 }}>
-    <div class="loader"> </div>
-    <div class="loader__container"> Podés encontrarnos en :</div>
-  </div> */}
-
-        <div style={{ flex: 3, marginBottom: "80px" }}>
+        <div className="mapa">
           <iframe
             title="Mapa de P.a.t.o - Centro de Estimulación Temprana y Neurorehabilitación Integral"
             width="1000"
@@ -36,6 +28,5 @@ export default function Location() {
           ></iframe>
         </div>
       </div>
-    </div>
   );
 }
