@@ -3,7 +3,8 @@ import CursoCard from "../../Components/CursoCard/CursoCard";
 import Loading from "../Loading/Loading";
 import { useState } from "react";
 import { useEffect } from "react";
-import cursos from "../../Imagenes/curso-por-internet.png"
+import cursos from "../../Imagenes/curso-por-internet.png";
+import online from "../../Imagenes/educacion-en-linea.png";
 
 export default function Cursos() {
   const [loading, setLoading] = useState(true);
@@ -27,16 +28,14 @@ export default function Cursos() {
       <div className={style.container2}>
         <div className={style.titulo}>
           <div className={style.cursotitulo}>
-            <img style={{height:"60px", margin:"10px 10px 0px 0px  "}}src={cursos} alt="" />
-            <h1>Cursos</h1>
+            <img
+              style={{ height: "60px", margin: "10px 10px 0px 0px  " }}
+              src={cursos}
+              alt=""
+            />
+            <h1>Diagnóstico Express</h1>
           </div>
-          <h4 style={{ margin: "10px 30px 10px 30px " }}>
-            Estamos trabajando para desarrollar cursos donde ... Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Quo quae ipsam nihil.
-            Perferendis adipisci ipsum eaque esse accusamus, similique aut
-            eligendi, odio facere nisi, dolore expedita sint. Pariatur, veniam
-            sed!{" "}
-          </h4>
+          
         </div>
         {loading ? (
           <Loading />
@@ -53,6 +52,25 @@ export default function Cursos() {
           ></iframe>
         )}
         <div className={style.cardCont}>
+        <div className={style.cursotitulo}>
+          <img style={{ height: "60px", margin: "10px 20px 0px 0px  " }} src={online} alt="" />
+          <h1>Online </h1>
+          </div>
+          <div className={style.proximo}>
+
+        <h3 style={{ margin: "30px 20px 30px 20px ", letterSpacing:"1px"}}>
+            Estamos desarrollando cursos online de estimulación temprana para
+            padres, cuidadores y educadores que quieran aprender sobre el
+            desarrollo infantil durante los primeros años de vida. Aprenderás a
+            través de videos, y
+            tendrás acceso a un equipo de profesionales en el campo de la
+            estimulación temprana. Este curso es para aquellos que quieran
+            adquirir habilidades prácticas para apoyar el desarrollo de los
+            niños en el área de la
+            estimulación temprana.
+            
+          </h3>
+          </div>
           <CursoCard />
         </div>
         <div className={style.recuadro}></div>
@@ -60,4 +78,3 @@ export default function Cursos() {
     </div>
   );
 }
-

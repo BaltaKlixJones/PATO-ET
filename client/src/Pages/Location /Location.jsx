@@ -29,8 +29,8 @@ export default function Location() {
             height="450"
             style={{ border: "0", boxShadow: "0 0 10px 0 rgba(0,0,0,0.2)" }}
             loading="lazy"
-            allowfullscreen
-            referrerpolicy="no-referrer-when-downgrade"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
             src={`https://www.google.com/maps/embed/v1/place?key=${APIKEY}
       &q=P.a.t.o+-Centro+de+Estimulaci%C3%B3n+Temprana+y+Neurorehabilitacion+Integral+(de+Lic.+Patricia+Jones),-24.71882,-65.4110963`}
           ></iframe>

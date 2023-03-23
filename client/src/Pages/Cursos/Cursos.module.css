@@ -20,3 +20,10 @@
     margin-top: 35px;
     margin-left: 20px;
   }
+
+  .proximo {
+    background-color: rgba(177, 180, 184, 0.436);
+    margin: 0px 20px 0px 20px;
+    border-radius: 20px;
+    padding: 5px;
+  }
