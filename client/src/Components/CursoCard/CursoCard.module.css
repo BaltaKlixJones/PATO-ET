@@ -73,6 +73,7 @@
     width: 1.5rem;
     flex-shrink: 0;
     color: rgb(99 102 241 );
+   
   }
   
   .list span {
@@ -84,6 +85,7 @@
     color: rgb(75, 85, 99);
     font-size: 1rem;
     left: 40%;
+    
   }
   
   .bottom {
