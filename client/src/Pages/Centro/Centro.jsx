@@ -12,8 +12,10 @@ export default function Centro() {
     <div className={style.centro}>
       <div className={style.centro2}>
       <div>
+        <div className={style.tituloCont}>
         <h1 className={style.h1Centro}>P.A.T.O </h1>
-        <h3>Progreso con Amor, Trabajo Y Orden </h3>
+        <h3 className={style.h3Centro}>Progreso con Amor, Trabajo Y Orden </h3>
+        </div>
         <p style={{margin:"30px"}}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
           assumenda unde nemo soluta repellat eaque vel deserunt similique dolor
@@ -34,6 +36,7 @@ export default function Centro() {
       <div>
         <Location />
       </div>
+      <div className={style.recuadro}></div>
       </div>
     </div>
   );

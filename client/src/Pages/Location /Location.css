@@ -1,9 +1,10 @@
 .container {
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   background-color: #f5f5f500;
 }
@@ -12,17 +13,24 @@
   display: flex;
   justify-self: flex-start;
   align-self: flex-start;
-  margin-left: 30px;
+  flex-direction: column;
+  background-color: rgba(106, 195, 195, 0.6);
+  border-radius: 0px 15px 15px 0px;
+  width: 45%;
+  margin-top: -10rem;
 }
-
-
-
-.ubicacion {
- 
+.h1Local{
   display: flex;
-  margin-left: 75px;
-  align-items: center;
-  margin-top: 50px;
-  flex: 1; /* Añadimos esta propiedad para que "ubicacion" ocupe el espacio restante en el eje vertical */
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 2rem;
 }
+.h2Text{
+  font-size: 1.4em;
+  margin-top: -1rem;
+}
+.mapa{
+ transform: translateY(6rem);
+}
+

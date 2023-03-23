@@ -5,13 +5,19 @@
   margin-top: 3rem;
 }
 
+.textCont{
+  width: 45%;
+  height: 8rem;
+  background-color: rgba(106, 195, 195, 0.6);
+  border-radius: 0px 15px 15px 0px;
+}
+
 .titulo{
   font-size: 1.5em;
   margin-left: 20px;
-  
-  padding: 10px 7px 0;
   justify-content: flex-start;
   display: flex;
+  margin-bottom: -50px;
 }
 
 .texto {
