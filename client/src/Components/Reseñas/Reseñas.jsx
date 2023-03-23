@@ -2,7 +2,7 @@ import "./Reseñas.css"
 
 export default function Reseñas() {
     return (
-        <div className="container" >
+        <div className="container1" >
         <div className="reseñas">
           <h1 style={{marginLeft:"-1300px", marginTop:"80px"}}>Algunas opiniones</h1>
           <p style={{marginLeft:"-980px"}}>¡ Nos importa mucho las opiniones de nuestro centro para poder seguir mejorando !</p>
@@ -20,17 +20,19 @@ export default function Reseñas() {
             </div>
             <div className="reseña">
               <h2>Ely CM</h2>
-              <p>"Centro de Estimulación temprana! Realizan un trabajo excelente, nosotros vamos hace 2 años y mi hijo le encanta! Excelentes profesionales!!"</p>
-              <p>⭐️⭐️⭐️⭐️⭐️</p>
-            </div>
-            <div className="reseña">
-              <h2>Gabriel Zalazar</h2>
-              <p>"Hermoso lugar y excelentes profesionales."</p>
+              <p>"Centro de Estimulación temprana! Realizan un trabajo excelente,<br/>
+               nosotros vamos hace 2 años y mi hijo le encanta! Excelentes profesionales!!"</p>
               <p>⭐️⭐️⭐️⭐️⭐️</p>
             </div>
             <div className="reseña">
               <h2>Nicolas Bf</h2>
-              <p>"Excelentes intalaciones con un equipamiento muy completo. El equipo humano es maravilloso y muy capacitado. Sin duda lo recomiendo."</p>
+              <p>"Excelentes intalaciones con un equipamiento muy completo.<br/>
+               El equipo humano es maravilloso y muy capacitado. Sin duda lo recomiendo."</p>
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+            </div>
+             <div className="reseña">
+              <h2>Gabriel Zalazar</h2>
+              <p>"Hermoso lugar y excelentes profesionales."</p>
               <p>⭐️⭐️⭐️⭐️⭐️</p>
             </div>
             <div className="reseña">

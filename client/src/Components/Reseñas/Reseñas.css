@@ -1,42 +1,65 @@
-
+/* .container {
+  transform: translateY(3rem);
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(106, 195, 195, 0.251);
+  margin-right: 0;
+}
 
 .reseña {
-    
-    border-radius: 30px;
-   
-    padding: 10px;
-  }
-  
-  .reseñas {
-    margin: 10px;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    margin-right: -0px; 
-    background-color: rgba(106, 195, 195, 0.251);
-    
-  }
-  
-  .reseña {
-    margin: 0 30px 20px 0; /* Margen derecho y margen inferior */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transform: all 0.5s;
-    background-color: rgba(197, 201, 201, 0.497);
-    margin-top: 10px ;
-    border: 1px solid rgba(0, 0, 0, 0.182);
-  }
-  
-  .reseña:last-child {
-    margin-right: 0; /* Se elimina el margen derecho en el último elemento */
-  }
+  margin: 0 30px 20px 0; 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transform: scale(1.1);
+  border: 1px solid rgba(0, 0, 0, 0.182);
+}
 
-  /* .reseña:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transform-origin: center;
-  } */
-  
+.reseña:last-child {
+  margin-right: 0; 
+} */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.reseñas {
+  background-color:rgba(106, 195, 195, 0.251) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.reseña {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transform: scale(1.1);
+  border: 1px solid rgba(0, 0, 0, 0.182);
+}
+
+.reseña h2 {
+  margin: 0;
+}
+
+.reseña p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.reseña p:nth-child(3) {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+
