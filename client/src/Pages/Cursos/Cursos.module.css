@@ -1,9 +1,16 @@
 .container{
-    background-image: url("../../Imagenes/fondoPato.jpg");
+    background-image: url("../../Imagenes/fondo\ pato.jpeg");
     margin-top: -2rem;  
-    height: 80vh;
+    height: 120vh;
 }
 .container2{
     background-color:rgba(255, 255, 255, 0.75);
-    height: 80vh;
+    height: 120vh;
 }
+
+  .recuadro{
+    background-color: rgb(106, 195, 195);
+    height: 35vh;
+    width: 100vw;
+    margin-top: -15rem;
+  }
