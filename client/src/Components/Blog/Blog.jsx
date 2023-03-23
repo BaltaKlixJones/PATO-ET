@@ -42,9 +42,9 @@ const Blog = () => {
           style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.75)" }}
           src="https://www.youtube.com/embed/7xfez-fecnI"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100056806724891%2Fvideos%2F950730886285154%2F&show_text=false&width=267&t=0"
@@ -52,10 +52,10 @@ const Blog = () => {
           height="415"
           style={{border:"none", overFlow:"hidden", marginLeft:"2%"}}
           scrolling="no"
-          frameborder="0"
-          allowfullscreen="true"
+          frameBorder="0"
+          
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          allowFullScreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
     

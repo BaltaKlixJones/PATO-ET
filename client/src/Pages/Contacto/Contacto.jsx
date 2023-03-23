@@ -6,7 +6,7 @@ import style from "./Contacto.module.css";
 
 const Contacto = () => {
   const Pato = useSelector((state) => state.pato);
-  console.log(Pato);
+  
 
   const dispatch = useDispatch();
 
