@@ -65,7 +65,7 @@ const Contacto = () => {
               alt=""
             />
           </a>
-          <a href="mailto:patriciadesalta_9@hotmail.com" target="_blank">
+          <a href="mailto:patriciajones0316@gmail.com" target="_blank">
             <img 
             style={{
               height: "58px",
