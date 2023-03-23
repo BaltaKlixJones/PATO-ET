@@ -14,7 +14,7 @@ const PatoCard = ({ id, name, profession, description, extra, otroextra, image, 
         <div className={style.texto}>{extra}</div>
         <div className={style.texto}>{otroextra}</div>
         <div className={style.phone}>{phone}</div>
-        <div className={style.profession}>{email}</div>
+        <div className={style.email}>{email}</div>
      </div>
 </div>
    

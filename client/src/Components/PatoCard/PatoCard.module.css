@@ -16,6 +16,8 @@
     height: 230px;
     border-radius: 6px;
     margin: 10px;
+    width: auto;
+    max-height: auto;
   }
   
   .cardImage:hover {
@@ -25,7 +27,7 @@
   .infoCont{
     margin-top: -13rem;
     margin-left: 20rem;
-   
+   height: auto;
   }
   
   .name {
@@ -49,9 +51,18 @@
 
   .phone{
     font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
   }
 
   .extra{
     font-size: 1rem;
+  }
+  .email {
+    
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
   }
   
