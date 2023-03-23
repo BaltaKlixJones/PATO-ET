@@ -5,7 +5,8 @@ import { useState, useEffect } from "react";
 import { getBlog } from "../../Redux/Actions";
 import { useSelector, useDispatch } from "react-redux";
 import CardBlog from "../BlogCard/BlogCard";
-import profile from "../.././Imagenes/profile.jpg";
+import youtube from "../.././Imagenes/youtube.png";
+import galeria from "../.././Imagenes/galeria.png";
 
 const Blog = () => {
   const blog = useSelector((state) => state.blog);
@@ -18,6 +19,13 @@ const Blog = () => {
   return (
     <div  className="blogBack">
     <div className="blogBack1">
+      <div className="tituloBlog">
+        <img style={{ height:"60px", marginTop:"10px", marginRight:"10px"}} src={youtube} alt="" />
+      <h1> Videos </h1>
+      </div>
+      <div className="subtitulo">
+      <h3> En mi canal de Youtube podés ver mas videos ! </h3>
+      </div>
     <div className="blogcontainer">
       <div className="blogVideo">
         <iframe
@@ -41,6 +49,14 @@ const Blog = () => {
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           allowFullScreen="true"
         ></iframe>
+      </div>
+      <div className="tituloBlog">
+      <img style={{ height:"60px", marginTop:"10px", marginRight:"10px"}} src={galeria} alt="" />
+      <h1>Blog</h1>
+      </div>
+      <div className="subtitulo">
+
+      <h3>Aquí podrás ver algunas fotos de nuestro equipo y nuestro centro</h3>
       </div>
       <div className="blogCard">
         {blog.map(({ id, title, description, image, date }) => {

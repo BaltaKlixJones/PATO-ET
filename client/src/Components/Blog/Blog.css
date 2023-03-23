@@ -1,11 +1,25 @@
 .blogBack {
-  margin-top: -1rem;
+  margin-top: 0rem;
   background-image: url("../../Imagenes/fondo\ pato.jpeg");
-  height: 100vh;
+ height: 180vh;
+ 
+  
 }
+
+
 .blogBack1 {
   background-color: rgba(255, 255, 255, 0.75);
-  height: 100vh;
+  height: 180vh;
+  
+}
+.tituloBlog{
+display: flex;
+margin:0px 0px 0px 20px;
+}
+
+.subtitulo{
+  display: flex;
+  margin: -5px 0px 0px 30px;
 }
 
 .blogcontainer {
