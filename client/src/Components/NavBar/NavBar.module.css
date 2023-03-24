@@ -7,13 +7,14 @@
     background-color: rgb(106, 195, 195);
 }
 
+
 .bottInicio,
 .bottProf,
 .bottContacto,
 .bottQS,
 .bottCursos{
     background-color: transparent;
-    width: 200px;
+    width: 230px;
     height: 3rem;
     display: inline-flex;
     justify-content: center;
@@ -63,6 +64,8 @@ a:-webkit-any-link:focus {
     transform: scale(1.1);
     transform-origin: center;
 }
+ 
+
 
 /* .menuInicio {
     display: none;

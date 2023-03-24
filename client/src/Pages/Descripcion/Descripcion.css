@@ -54,5 +54,12 @@
     margin-top: 20px;
   }
   
+
+  @media only screen and (max-width: 800px) {
+    .containerDescription {
+      margin-top: -77px;
+      
+    }
+  }
   
   

@@ -18,12 +18,11 @@ export default function Home() {
         <h2 style={{ fontSize: "18px" }}>
           Lic. en Educación Especial y Especialista en Estimulación Temprana
         </h2>
+        <div className="texto">
+
+       
         <p
-          style={{
-            marginLeft: "50px",
-            fontFamily: "cursive",
-            fontSize: "20px",
-          }}
+          
         >
           Nuestro Centro de Estimulación Temprana y Neurorehabilitación integral
           es un espacio especializado en la atención y cuidado de bebés y niños
@@ -41,6 +40,7 @@ export default function Home() {
           tal fin. Además, el centro cuenta con un ambiente seguro, agradable, 
           confortable y adaptado a las necesidades de los pacientes.
         </p>
+        </div>
       </div>
     </div>
   );

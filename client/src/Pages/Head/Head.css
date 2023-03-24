@@ -32,3 +32,42 @@
     margin-bottom: 10px; /* Ajustamos el margen inferior */
     /* margin-top: -30px; */
   }
+
+  @media only screen and (max-width: 800px) {
+    .head {
+      height: auto;
+      flex-direction: column;
+      padding: 20px;
+      
+     
+    }
+  
+    .titulo-head {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .titulo-head img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .titulo-head h1 {
+      font-size: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas medianas y grandes */
+  @media only screen and (min-width: 500px) {
+    .head {
+      height: 150px;
+    }
+  
+    .titulo-head {
+      margin-right: 50px;
+    }
+  
+    .titulo-head h1 {
+      font-size: 24px;
+    }
+  }
