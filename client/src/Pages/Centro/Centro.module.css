@@ -47,14 +47,20 @@
 
 .recuadro {
   background-color: rgb(106, 195, 195);
-  height: 35vh;
+  height: 30vh;
   width: 100vw;
-  margin-top: -18rem;
+  margin-top: -16rem;
 }
 
 
 @media only screen and (max-width: 1000px) {
 .tituloCont {
   width: 95%;
+}
+.recuadro {
+  background-color: rgb(106, 195, 195);
+  height: 10vh;
+  width: 100vw;
+  margin-top: auto;
 }
 }
