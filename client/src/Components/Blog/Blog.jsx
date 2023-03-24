@@ -27,7 +27,10 @@ const Blog = () => {
             src={youtube}
             alt=""
           />
+          
+
           <h1> Videos </h1>
+          
           <div className="subtitulo">
             <h3>
               {" "}
@@ -52,6 +55,7 @@ const Blog = () => {
                 allowFullScreen
               ></iframe>
               <iframe
+              className="videoFB"
                 src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100056806724891%2Fvideos%2F950730886285154%2F&show_text=false&width=267&t=0"
                 width="267"
                 height="415"
@@ -91,7 +95,9 @@ const Blog = () => {
                     image={image}
                     description={description}
                     date={date}
+                    
                   />
+                
                 );
               })}
             </div>

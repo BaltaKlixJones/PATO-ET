@@ -9,6 +9,7 @@
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
     rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
     margin: 1.5rem;
+    background-image: url("../../Imagenes/avionesfondo.png");
 }
 
 .card {
@@ -28,6 +29,7 @@
   box-shadow: rgba(175, 180, 215, 0.5) 0px 30px 60px -12px inset,
     rgba(175, 180, 215, 0.5) 0px 18px 36px -18px inset;
   transition: background-color 0.3s ease-in-out;
+  padding: 20px;
 }
 
 .card:hover {
@@ -85,4 +87,12 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 40px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .cardBox {
+    width: 80%;
+    margin: 1rem 0;
+  }
 }
