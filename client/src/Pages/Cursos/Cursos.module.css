@@ -1,10 +1,10 @@
 .container {
   background-image: url("../../Imagenes/fondo\ pato.jpeg");
-  height: 160vh;
+  height: auto;
 }
 .container2 {
   background-color: rgba(255, 255, 255, 0.75);
-  height: 160vh;
+  height: auto;
 }
 
 .recuadro {
@@ -46,10 +46,10 @@
 
 @media screen and (max-width: 1100px) {
   .container {
-    height: 200vh;
+    height: auto;
   }
   .container2 {
-    height: 200vh;
+    height: auto;
   }
   .recuadro {
     height: 10vh;
