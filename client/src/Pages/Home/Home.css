@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     /* background-color: rgba(106, 195, 195, 0.284); */
-    background-image: url("../../Imagenes/fondoHomee.jpg");
+    background-image: url("../../Imagenes/avionesfondo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,7 +41,7 @@
           font-family: cursive;
           font-size: 20px;
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1000px) {
     .home {
     flex-direction: column;
     height: auto;
