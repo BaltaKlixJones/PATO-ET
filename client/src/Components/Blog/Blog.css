@@ -1,11 +1,12 @@
 .blogBack {
   background-image: url("../../Imagenes/fondo\ pato.jpeg");
-  height: 200vh;
+  height: auto;
+  
 }
 
 .blogBack1 {
   background-color: rgba(255, 255, 255, 0.75);
-  height: 200vh;
+  height: auto;
 }
 .tituloBlog {
   display: flex;
@@ -17,17 +18,20 @@
   width: 45%;
   transform: translateY(2.5rem);
 }
+
 .tituloBlog img {
   margin-left: 2rem;
 }
 .tituloBlog h1 {
   margin-left: 7rem;
   margin-top: -3rem;
+  
 }
 .subtitulo {
   display: flex;
   margin-left: 2rem;
   margin-top: -1rem;
+
 }
 
 .blogcontainer {
@@ -54,4 +58,14 @@
   height: 25vh;
   width: 100vw;
   margin-top: -15rem;
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .tituloBlog {
+    width: 95%;
+  }
+  .videoFB {
+    display: none;
+  }
 }

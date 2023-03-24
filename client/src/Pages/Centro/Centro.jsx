@@ -43,7 +43,7 @@ export default function Centro() {
         <div>
           <Cards />
         </div>
-        <div>
+        <div className="location">
           <Location />
         </div>
         <div className={style.recuadro}></div>

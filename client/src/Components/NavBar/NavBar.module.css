@@ -34,6 +34,7 @@
 .nav__link:hover {
   color: #646161;
   text-decoration: none;
+ 
 }
 
 .nav__link:focus {
@@ -41,7 +42,7 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1401px) {
   .header__buttonNavOpen {
     display: block;
     background-color: #ffffff00;
@@ -58,7 +59,11 @@
     left: 0;
     height: 100vh;
     width: 60%;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, rgb(106, 195, 195), #fcfcfc 50%, #ffffff 50%, rgb(255, 255, 255));
+
+
+    
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -67,14 +72,13 @@
     transition: transform 0.5s ease-in-out;
     z-index: 9999; /* Agrega un alto valor de z-index */
     
-    
-
   }
 
   .navShow {
     transform: translateX(0);
     transform: translateX(0);
     overflow: hidden;
+    
   }
 
   .header__buttonNavClose {
@@ -113,7 +117,7 @@
   }
 }
 
-@media (min-width: 1199px) {
+@media (min-width: 1401px) {
   .header__buttonNavOpen {
     display: none;
   }
@@ -127,6 +131,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    
   }
 
   .nav__button {

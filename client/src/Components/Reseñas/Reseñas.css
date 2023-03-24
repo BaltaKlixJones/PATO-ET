@@ -92,3 +92,21 @@
   margin-top: 10px;
   font-size: 24px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .textos{
+    width: 95%;
+  }
+  .textos h1{
+    margin-left: 10px;
+  }
+  .reseña {
+    margin-left: 65px;
+    margin-top: 10px;
+
+  }
+  .reseñas {
+    width: 90%;
+    margin-left: 25px;
+  }
+}
