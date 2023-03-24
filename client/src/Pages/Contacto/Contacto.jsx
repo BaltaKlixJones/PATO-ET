@@ -22,7 +22,7 @@ const Contacto = () => {
       <div className={style.titulo}>
         <h2 style={{marginTop:"85px"}}>Contacta con nosotros</h2>
         <hr color="white" size="2" width="25%" />
-        <div style={{ opacity: "0.8", marginBottom:"-20px" }}>
+        <div className={style.imgTit} style={{ opacity: "0.8", marginBottom:"-20px" }}>
           <a
             href="https://www.instagram.com/p.a.t.o_estimulacion/"
             target="_blank"
