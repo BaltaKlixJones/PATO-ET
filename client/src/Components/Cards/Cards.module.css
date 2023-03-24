@@ -10,6 +10,7 @@
   height: 8rem;
   background-color: rgba(106, 195, 195, 0.6);
   border-radius: 0px 15px 15px 0px;
+  padding: 0rem 0rem 1rem 0rem ;  
 }
 
 .titulo{
@@ -23,7 +24,7 @@
 .texto {
   font-size: 1em;
   margin-left: 20px;
-  padding: 10px 7px 0;
+  padding: 10px ;
   justify-content: flex-start;
   display: flex;
 }
