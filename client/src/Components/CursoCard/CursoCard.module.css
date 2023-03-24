@@ -141,3 +141,48 @@
 .btn:active {
   background-color: rgb(67 56 202);
 }
+
+/* Estilos para pantallas menores de 800px */
+@media (max-width: 1100px) {
+
+  .cardCont {
+    flex-direction: column;
+    align-items: center;
+    transform: none;
+    margin-top: 15rem;
+  }
+
+  .pack_card {
+    margin: 1rem;
+    max-width: none;
+    width: 80%;
+    height: auto;
+  }
+
+  .banner {
+    
+    margin-bottom: 1rem;
+  }
+
+  .pack_name {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .devise {
+    top: auto;
+    left: auto;
+    align-self: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .price {
+    top: 75%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+}
