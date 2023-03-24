@@ -13,20 +13,20 @@ export default function Centro() {
           <div className={style.tituloCont}>
             <div className={style.h1Centro}>
               <img
-                style={{ height: "40px", marginRight: "20px" }}
+                style={{ height: "35px", marginRight: "20px" }}
                 src={arcoiris}
                 alt=""
               />
-              <h1>P.</h1>
-              <h1>A.</h1>
-              <h1>T.</h1>
-              <h1>O</h1>
+              <h2>P.</h2>
+              <h2>A.</h2>
+              <h2>T.</h2>
+              <h2>O</h2>
             </div>
             <h3 className={style.h3Centro}>
               Progreso con Amor, Trabajo Y Orden{" "}
             </h3>
           </div>
-          <p style={{ margin: "30px" }}>
+          <p style={{ margin: "3rem" }}>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
             assumenda unde nemo soluta repellat eaque vel deserunt similique
             dolor quisquam veniam dolore asperiores eveniet atque, ex optio
