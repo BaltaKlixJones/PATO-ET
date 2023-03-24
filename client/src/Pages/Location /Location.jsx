@@ -9,10 +9,10 @@ export default function Location() {
     <div className="container">
       <div className="encontrar" >
         <h1 className="h1Local">📌 Podés encontrarnos en :</h1>
-        <h2 className="h2Text">
+        <h3 className="h2Text">
           Salta - Argentina 🇦🇷 
           Guillermo Alzaga S/N. Barrio portal de Lesser.
-        </h2>
+        </h3>
       </div>
         <div className="mapa">
           <iframe

@@ -27,10 +27,50 @@
   margin-left: 2rem;
 }
 .h2Text{
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-top: -1rem;
 }
 .mapa{
  transform: translateY(6rem);
 }
 
+@media only screen and (max-width: 1000px) {
+  .encontrar {
+    border-radius: 0px 15px 15px 0px;
+    width: 95%;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+  .mapa {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  iframe {
+    width: 90%;
+    height: 300px;
+    margin-left: -10px;
+    margin : 0px 10px 0px 10px ;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .encontrar {
+    border-radius: 0px 15px 15px 0px;
+    width: 95%;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+  .mapa {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  iframe {
+    width: 90%;
+    height: 300px;
+    margin-left: 0px;
+  }
+}

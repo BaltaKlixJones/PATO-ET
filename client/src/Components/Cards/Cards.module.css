@@ -29,3 +29,10 @@
   justify-content: flex-start;
   display: flex;
 }
+
+@media only screen and (max-width : 1000px) {
+  .textCont{
+   width:  95%;
+   height: auto;
+  }
+}

@@ -65,4 +65,48 @@
     color: rgb(63, 121, 230);
     padding: 10px 7px 0;
   }
+  /* @media (max-width: 1000px) {
+    .card {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2rem;
+    }
   
+    .cardImage{
+      height: 100px;
+      width: auto;
+    }
+    .infoCont {
+      margin-top: 0;
+      margin-left: 0;
+      padding: 1rem;
+    }
+ 
+  } */
+
+  @media (max-width: 1000px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2rem;
+      height: auto;
+    }
+    
+    .cardImage{
+      height: 250px;
+      width: auto;
+      margin-bottom: 1rem; /* Agregamos un margen inferior para separar la imagen de la descripción */
+    }
+    
+    .infoCont {
+      margin-top: 0;
+      margin-left: 0;
+      padding: 1rem;
+      text-align: center; /* Centramos el contenido de la descripción */
+    }
+  }
