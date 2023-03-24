@@ -1,105 +1,152 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    background-color: rgb(106, 195, 195);
+.header {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(106, 195, 195);
+  font-size: 40px;
+  color: rgb(106, 195, 195);;
+  
+}
+.nav__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+  list-style: none; /* nueva propiedad */
+  width: 100%;
+  height: 70px;
+}
+
+.nav__link {
+  font-size: 34px;
+  text-decoration: none;
+  color: #f7f7f7;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #646161;
+  text-decoration: none;
+}
+
+.nav__link:focus {
+  color: #646161;
 }
 
 
-.bottInicio,
-.bottProf,
-.bottContacto,
-.bottQS,
-.bottCursos{
+@media (max-width: 1200px) {
+  .header__buttonNavOpen {
+    display: block;
+    background-color: #ffffff00;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    height: 50px;
+    
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+    z-index: 9999; /* Agrega un alto valor de z-index */
+    
+    
+
+  }
+
+  .navShow {
+    transform: translateX(0);
+    transform: translateX(0);
+    overflow: hidden;
+  }
+
+  .header__buttonNavClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     background-color: transparent;
-    width: 230px;
-    height: 3rem;
-    display: inline-flex;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    
+  }
+
+  .nav__ul {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    border: none;
-    margin: 1rem;
-}
-
-.bottInicio:hover,
-.bottProf:hover,
-.bottContacto:hover,
-.bottQS:hover,
-.bottCursos:hover{
-    cursor: pointer;
-    color: #ffffff;
-    
-    transform: scale(1.1);
-    transform-origin: center;
-}
-
-.bottInicio:focus,
-.bottProf:focus,
-.bottContacto:focus,
-.bottQS:focus,
-.bottCursos:focus{
-    cursor: pointer;
-    color: #545353;
-    
-    transform: scale(1.1);
-    transform-origin: center;
-}
-
-a:-webkit-any-link {
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-}
-a:-webkit-any-link:focus {
-    cursor: pointer;
-    color: #545353;
-    
-    transform: scale(1.1);
-    transform-origin: center;
-}
- 
-
-
-/* .menuInicio {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    color: #333;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    z-index: 2;
-    margin-left: 50px;
-  }
-  .menuInicio ul {
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+   
   }
-  .menuInicio li {
-    margin: 0.5rem 0;
+
+  .nav__item {
+    margin: 20px 0;
   }
-  .menuInicio a {
+
+  .nav__link {
+    font-size: 24px;
     text-decoration: none;
     color: #333;
-    transition: color 0.2s ease-in-out;
+    margin-left: 0px;
+    
   }
-  .menuInicio a:hover {
-    color: #000;
+}
+
+@media (min-width: 1199px) {
+  .header__buttonNavOpen {
+    display: none;
   }
-  .bottInicio:hover .menuInicio {
-    display: block;
-  } */
+
+  .nav {
+    position: static;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav__button {
+    display: none;
+  }
+
+  .nav__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .nav-open {
+    overflow: hidden;
+  }
+  .nav__item {
+    margin: 0 10px;
+  }
+}
+
 
   
