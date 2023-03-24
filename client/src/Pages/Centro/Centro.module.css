@@ -11,19 +11,39 @@
   justify-content: center;
   align-items: flex-start;
   width: 45%;
-  height: 8rem;
+  height: 10rem;
   background-color: rgba(106, 195, 195, 0.6);
   border-radius: 0px 15px 15px 0px;
-  transform: translateY(1rem);
+  transform: translateY(.5rem);
+}
+
+
+.h1Centro h1:nth-child(2) {
+  color: red;
+}
+
+.h1Centro h1:nth-child(3) {
+  color: rgb(47, 205, 47);
+}
+
+.h1Centro h1:nth-child(4) {
+  color: rgb(207, 117, 8);
+}
+
+.h1Centro h1:nth-child(5) {
+  color: blue;
 }
 
 .h1Centro{
-    font-size: 3rem;
+    font-size: 30px;
     margin-left: 2rem;
+    margin:-10px 0px -15px 20px;
+    display: flex;
+  align-items: center;
 }
 .h3Centro{
     margin-top: -1rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
   
 .recuadro{
