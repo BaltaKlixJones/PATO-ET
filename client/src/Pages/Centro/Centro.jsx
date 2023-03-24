@@ -3,6 +3,7 @@ import Location from "../Location /Location";
 import Cards from "../../Components/Cards/Cards";
 import PatoRender from "../../Components/PatoRender/PatoRender";
 import style from "./Centro.module.css"
+import arcoiris from "../../Imagenes/arco-iris.png"
 
 
 export default function Centro() {
@@ -13,7 +14,7 @@ export default function Centro() {
       <div className={style.centro2}>
       <div>
         <div className={style.tituloCont}>
-        <h1 className={style.h1Centro}>P.A.T.O </h1>
+        <h1 className={style.h1Centro}><img style={{height:"40px", marginRight:"20px"}} src={arcoiris} alt="" />P.A.T.O </h1>
         <h3 className={style.h3Centro}>Progreso con Amor, Trabajo Y Orden </h3>
         </div>
         <p style={{margin:"30px"}}>
