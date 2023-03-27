@@ -33,7 +33,6 @@
   }
   
   .subtitle {
-    
     font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     letter-spacing: .5px;
@@ -69,4 +68,34 @@
   .recuadroH4{
     color: white;
     margin-top: -3rem;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .imagenn {
+        height: 300px;
+        width: auto;
+        margin: 20px 0px 20px auto;
+        
+       
+    }
+    .imgQuiensoy{
+       position: relative;
+        float: none;
+    }
+  
+    .description{
+        width: 80%;
+        margin: 30px 30px 80px  ;
+    }
+    .subtitle {
+        width: 80%;
+        font-size: 15px ;
+        height: auto;
+       
+    }
+    .title{
+        width:90%;
+        height: 6rem;
+    }
+
   }
