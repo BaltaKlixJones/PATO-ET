@@ -117,7 +117,7 @@ const Blog = () => {
                 alt=""
               />
             </a>
-            <h3 style={{ marginBottom: "100px" }}>
+            <h3 style={{ marginBottom: "100px", color:"white" }}>
               ¡ Podes ver más fotos y videos en nuestro instagram !
             </h3>
           </div>
