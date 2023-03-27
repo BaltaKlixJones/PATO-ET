@@ -1,29 +1,32 @@
 import React from "react";
 import style from "./QuienSoy.module.css";
 import perfilQuienSoy from "../../Imagenes/quiensoyimg.jpg";
+import graduado from "../../Imagenes/graduado.png"
+import logro from "../../Imagenes/arcoiris.png"
+import conocimiento from "../../Imagenes/conocimiento.png"
 
 export default function QuienSoy() {
   return (
     <div className={style.fondo}>
       <div className={style.container}>
-        <div className={style.containter2}>
+        
           <div className={style.title}>
             <h1>Patricia Jones</h1>
           </div>
           <div className={style.imgQuiensoy}>
-            <img src={perfilQuienSoy} alt="" />
+            <img className={style.imagenn}src={perfilQuienSoy} alt="" />
           </div>
           
             <div className={style.subtitle}>
-              <h3>
-                
+              <h2>
                 Soy Patricia Jones Bustos Fierro y, en primer lugar, soy una
-                orgullosa mamá de tres hijos; Santiago, Baltasar y Juan.
-              </h3>
+                orgullosa mamá de tres hijos; Santiago, Baltasar y Juan 
+              </h2>
             </div>
             <div className={style.description}>
               <h4>
-                <br/>Me gradué en la Facultad de Educación y Salud (F.E.S), DR.
+                <img style={{display:"flex"}} src={graduado} alt="" />
+                Me gradué en la Facultad de Educación y Salud (F.E.S), DR.
                 DOMINGO CABRED, en Córdoba, como Profesora en Educación
                 Especial. Posteriormente, realicé una Especialización en
                 Estimulación Temprana y Psicopedagogía Inicial en el Centro
@@ -34,6 +37,7 @@ export default function QuienSoy() {
                 ofreciendo servicios de Estimulación Temprana. 
                 <br/><br/> 
                 
+                <img style={{display:"flex"}} src={logro} alt="" />
                 
                 Hace algunos
                 años, logré cumplir uno de mis sueños gracias al apoyo
@@ -45,6 +49,8 @@ export default function QuienSoy() {
                 y ayudarles en su evolución y crecimiento. Me acompaña un equipo
                 de profesionales que comparte mi visión.
                  <br/><br/>
+                 <img style={{display:"flex"}} src={conocimiento} alt="" />
+                 
                  A lo largo de los años, he acumulado una gran cantidad de experiencia y conocimientos en
                 este campo, y siempre estoy estudiando porque amo lo que hago.
                 Es por eso que he creado esta página, para compartir a través de
@@ -53,6 +59,6 @@ export default function QuienSoy() {
             </div>
           </div>
         </div>
-    </div>
+    
   );
 }
