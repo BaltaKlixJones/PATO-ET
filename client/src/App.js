@@ -7,6 +7,7 @@ import Reseñas from "./Components/Reseñas/Reseñas";
 import Blog from "./Components/Blog/Blog";
 import Cursos from "./Pages/Cursos/Cursos";
 import Descripcion from "./Pages/Descripcion/Descripcion";
+import QuienSoy from "./Pages/Info/QuienSoy";
 import axios from "axios"; 
 axios.defaults.baseURL = "https://back-pato-et-production.up.railway.app/"; 
 
@@ -38,6 +39,7 @@ function App() {
       <Route exact path="/Blog" component={Blog} />
       <Route exact path="/Contacto" component={Contacto} />
       <Route exact path="/Cursos" component={Cursos} />
+      <Route exact path="/QuienSoy" component={QuienSoy} />
 
     </BrowserRouter>
     </div>
