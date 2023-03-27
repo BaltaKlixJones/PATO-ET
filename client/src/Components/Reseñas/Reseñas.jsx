@@ -63,7 +63,8 @@ export default function Reseñas() {
         </div>
       </div>
 
-      <h3 style={{ color: "black", marginBottom: "100px" }}>
+        <div className="recuadroHome">
+      <h2>
         ¡Puedes ver más opiniones haciendo click{" "}
         <a
           href="https://www.google.com/search?hl=es-AR&gl=ar&q=P.a.t.o+-Centro+de+Estimulaci%C3%B3n+Temprana+y+Neurorehabilitacion+Integral+(de+Lic.+Patricia+Jones),+Salta&ludocid=1068908539001127313&lsig=AB86z5WF4gAMjVYyC91s3J6aHM7w&hl=es&gl=AR#lrd=0x941bc17ade5a5d03:0xed586a7248b4191,1"
@@ -73,8 +74,9 @@ export default function Reseñas() {
           acá
         </a>
         !
-      </h3>
-      <div className="recuadroHome"></div>
+      </h2>
+      <h4>© 2022 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral | Derechos Reservados.</h4>
+      </div>
     </div>
     </div>
   );
