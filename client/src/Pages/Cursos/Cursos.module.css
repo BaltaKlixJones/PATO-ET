@@ -7,13 +7,6 @@
   height: auto;
 }
 
-.recuadro {
-  display: flex;
-  background-color: rgb(106, 195, 195);
-  height: 35vh;
-  width: 100vw;
-}
-
 .cursotitulo1 {
   display: flex;
   background-color: rgba(106, 195, 195, 0.6);
@@ -43,6 +36,16 @@
 .video {
   transform: translateY(6rem);
 }
+.recuadro {
+  display: flex;
+  background-color: rgb(106, 195, 195);
+  height: 35vh;
+  width: 100vw;
+}
+.recuadroH4{
+  color: white;
+  margin-top: -3rem;
+}
 
 @media screen and (max-width: 1100px) {
   .container {
@@ -51,11 +54,14 @@
   .container2 {
     height: auto;
   }
-  .recuadro {
-    height: 10vh;
-  }
   .cursotitulo1, .cursotitulo2 {
     width: 95%;
   }
-  
+  .recuadro {
+    height: 10vh;
+  }
+  .recuadroH4{
+    color: white;
+    font-size: 0.7rem;
+  }
 }
