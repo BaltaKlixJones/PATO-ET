@@ -3,6 +3,7 @@ import "./Reseñas.css";
 export default function Reseñas() {
   return (
     <div className="container1">
+    <div className="container2">
       <div className="textos">
         <h1>💬 Algunas opiniones</h1>
         <p>
@@ -73,6 +74,8 @@ export default function Reseñas() {
         </a>
         !
       </h3>
+      <div className="recuadroHome"></div>
+    </div>
     </div>
   );
 }
