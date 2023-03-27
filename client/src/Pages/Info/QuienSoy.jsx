@@ -62,7 +62,7 @@ export default function QuienSoy() {
         </div>
         <div className={style.recuadro}></div>
         <h4 className={style.recuadroH4}>
-          © 2022 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral
+          © 2023 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral
           | Derechos Reservados.
         </h4>
       </div>

@@ -75,7 +75,7 @@ export default function Reseñas() {
         </a>
         !
       </h2>
-      <h4>© 2022 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral | Derechos Reservados.</h4>
+      <h4>© 2023 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral | Derechos Reservados.</h4>
       </div>
     </div>
     </div>
