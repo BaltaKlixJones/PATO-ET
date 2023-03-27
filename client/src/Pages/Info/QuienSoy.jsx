@@ -7,12 +7,9 @@ import conocimiento from "../../Imagenes/conocimiento.png"
 
 export default function QuienSoy() {
   return (
-    <div className={style.fondo}>
+    
       <div className={style.container}>
         <div className={style.container2}>
-
-        
-        
           <div className={style.title}>
             <h1>Patricia Jones</h1>
           </div>
@@ -64,7 +61,7 @@ export default function QuienSoy() {
             <h4 className={style.recuadroH4}>© 2022 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral | Derechos Reservados.</h4>
           </div>
         </div>
-        </div>
+       
     
   );
 }
