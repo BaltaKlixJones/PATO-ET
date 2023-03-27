@@ -21,10 +21,18 @@
   width: 35%;
   height: 8rem;
   background-color: rgba(106, 195, 195, 0.6);
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 15px 0px 0px;
   font-size: large;
   transform: translateY(2rem);
 }
+
+.logito{
+    margin-bottom: -14px;
+    height: 64px;
+    width: auto;
+    margin-right: 20px;
+}
+
 .title h1 {
   margin-left: 2rem;
 }
@@ -34,12 +42,14 @@
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 0.5px;
-  background-color: rgba(135, 206, 235, 0.6);
+  /* background-color: rgba(135, 206, 235, 0.6); */
+  background-color: rgba(106, 195, 195, 0.6);
   border-radius: 0px 15px 15px 0px;
-  height: 60px;
-  width: 55%;
+  height: auto;
+  width: 84%;
   padding: 8px;
   transform: translateY(3rem);
+  margin-top: -16.5px;
 }
 .subtitle h2 {
   display: flex;
@@ -55,6 +65,7 @@
   max-width: auto;
   opacity: 1;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
 }
 
 .imgQuiensoy {

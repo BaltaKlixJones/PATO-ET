@@ -4,6 +4,7 @@ import perfilQuienSoy from "../../Imagenes/quiensoyimg.jpg";
 import graduado from "../../Imagenes/graduado.png";
 import logro from "../../Imagenes/arcoiris.png";
 import conocimiento from "../../Imagenes/conocimiento.png";
+import profesora from "../../Imagenes/profesor(2).png"
 
 export default function QuienSoy() {
   return (
@@ -11,12 +12,13 @@ export default function QuienSoy() {
       <div className={style.container2}>
         <div className={style.titulos}>
           <div className={style.title}>
-            <h1>Patricia Jones</h1>
+          
+            <h1 > <img className={style.logito}   src={profesora} alt="" /> Patricia Jones</h1>
           </div>
           <div className={style.subtitle}>
-            <h2>
-              Soy Patricia Jones Bustos Fierro y, en primer lugar, soy una
-              orgullosa mamá de tres hijos; Santiago, Baltasar y Juan
+            <h2 style={{marginLeft:"20px"}}>
+              👋 Soy Patricia Jones Bustos Fierro y, en primer lugar, soy una
+              orgullosa mamá de tres hijos: Santiago, Baltasar y Juan.
             </h2>
           </div>
         </div>
@@ -53,8 +55,8 @@ export default function QuienSoy() {
               <img style={{ display: "flex" }} src={conocimiento} alt="" />A lo
               largo de los años, he acumulado una gran cantidad de experiencia y
               conocimientos en este campo, y siempre estoy estudiando porque amo
-              lo que hago. Es por eso que he creado esta página, para compartir
-              a través de cursos lo que he aprendido y lo que sé con ustedes
+              lo que hago. ¡Es por eso que he creado esta página, para compartir
+              a través de cursos lo que he aprendido y lo que sé con ustedes!.
             </h4>
           </div>
         </div>
