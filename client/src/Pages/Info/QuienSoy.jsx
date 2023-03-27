@@ -9,6 +9,9 @@ export default function QuienSoy() {
   return (
     <div className={style.fondo}>
       <div className={style.container}>
+        <div className={style.container2}>
+
+        
         
           <div className={style.title}>
             <h1>Patricia Jones</h1>
@@ -60,6 +63,7 @@ export default function QuienSoy() {
             <div className={style.recuadro}></div>
             <h4 className={style.recuadroH4}>© 2022 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral | Derechos Reservados.</h4>
           </div>
+        </div>
         </div>
     
   );
