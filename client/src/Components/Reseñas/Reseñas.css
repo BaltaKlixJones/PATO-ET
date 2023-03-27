@@ -102,10 +102,20 @@
 
 .recuadroHome {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   background-color: rgb(106, 195, 195);
-  height: 25vh;
+  height: 20vh;
   width: 100vw;
-  margin-top: -9rem;
+}
+
+.recuadroHome h2{
+  color: white;
+  margin-top: 3rem;
+}
+.recuadroHome h4{
+  color: white;
+  margin-top: auto;
 }
 @media only screen and (max-width: 1000px) {
   .textos{
@@ -122,5 +132,14 @@
   .reseñas {
     width: 90%;
     margin-left: 25px;
+  }
+  .recuadroHome {
+    height: 21vh;
+  }
+  .recuadroHome h2{
+    margin-top: 1.5rem;
+  }
+  .recuadroHome h4{
+    font-size: 0.8rem;
   }
 }
