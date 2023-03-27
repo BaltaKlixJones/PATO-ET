@@ -1,107 +1,112 @@
-  .container {
-    background-image: url("../../Imagenes/fondo pato.jpeg");
-    min-height: auto;
-  }
-  .container2{
-    background-color: rgba(255, 255, 255, 0.75);
-    height: auto;
-  }
-  
-  .imagenn {
-    max-height: 600px;
-    max-width: auto;
-    margin-left: 20px;
-    opacity: 1;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  }
-  
-  .imgQuiensoy {
-   
-    max-width: 20%;
-    margin-top: 30px;
-  }
-  
-  .description {
-    float: right;
-    width: 40%;
-    margin: 30px 300px 80px ;
-    background-color: rgba(99, 127, 127, 0.352);
-    letter-spacing: 1px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    padding: 20px;
-    text-align: left;
-  }
-  
-  .subtitle {
-    font-size: 16px;
-    font-family: "Times New Roman", Times, serif;
-    letter-spacing: .5px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 3rem auto 0 ;
-    background-color:rgba(135, 206, 235, 0.6);
-    border-radius: 15px 15px 15px 15px;
-    height: 60px;
-    width: 55%;
-    padding: 8px ;
-    margin-top: 30px;
-  }
-  
-  .title {
-    display: flex;
+.container {
+  background-image: url("../../Imagenes/fondo pato.jpeg");
+  min-height: auto;
+}
+.container2 {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: auto;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   float: left;
-    width: 35%;
-    height: 8rem;
-    margin: 0rem auto 0;
-    background-color: rgba(106, 195, 195, 0.6);
-    border-radius: 0px 0px 15px 15px;
-    font-size: large;
-  }
-  
-  .recuadro {
-    display: flex;
-    background-color: rgb(106, 195, 195);
-    height: 15vh;
-    width: 100vw;
-  }
-  .recuadroH4{
-    color: white;
-    margin-top: -3rem;
+  width: 35%;
+  height: 8rem;
+  background-color: rgba(106, 195, 195, 0.6);
+  border-radius: 0px 15px 15px 0px;
+  font-size: large;
+  transform: translateY(2rem);
+}
+.title h1 {
+  margin-left: 2rem;
+}
+.subtitle {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.5px;
+  background-color: rgba(135, 206, 235, 0.6);
+  border-radius: 0px 15px 15px 0px;
+  height: 60px;
+  width: 55%;
+  padding: 8px;
+  transform: translateY(3rem);
+}
+.subtitle h2 {
+  display: flex;
+}
+.fotoText {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.imagenn {
+  max-height: 600px;
+  max-width: auto;
+  opacity: 1;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.imgQuiensoy {
+  max-width: 20%;
+}
+
+.description {
+  width: 40%;
+  background-color: rgba(99, 127, 127, 0.352);
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  text-align: left;
+  margin-left: 6rem;
+}
+
+.recuadro {
+  display: flex;
+  background-color: rgb(106, 195, 195);
+  height: 15vh;
+  width: 100vw;
+}
+.recuadroH4 {
+  color: white;
+  margin-top: -3rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .title {
+    width: 95%;
   }
 
-  @media only screen and (max-width: 1000px) {
-    .imagenn {
-        height: 300px;
-        width: auto;
-        margin: 20px 0px 20px 5px;
-        
-       
-    }
-    .imgQuiensoy{
-       position: relative;
-        float: none;
-    }
-  
-    .description{
-        width: 80%;
-        margin: 30px 30px 80px  ;
-        
-    }
-    .subtitle {
-        margin: -325px 10px 10px 10px;
-        font-size: 15px ;
-        height: 288px;
-        float: right;
-        width: 50%;
-       
-    }
-    .title{
-        width:90%;
-        height: 6rem;
-    }
-
+  .subtitle {
+    width: 95%;
   }
+
+  .fotoText {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagenn {
+    max-height: 400px;
+    margin: 0 auto;
+  }
+
+  .imgQuiensoy {
+    max-width: 30%;
+    margin: 0 auto;
+  }
+
+  .description {
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
