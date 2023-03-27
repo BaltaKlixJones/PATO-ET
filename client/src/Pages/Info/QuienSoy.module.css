@@ -16,7 +16,7 @@
   }
   
   .imgQuiensoy {
-    float: left;
+   
     max-width: 20%;
     margin-top: 30px;
   }
@@ -50,15 +50,18 @@
   
   .title {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  float: left;
+    width: 35%;
     height: 8rem;
     margin: 0rem auto 0;
     background-color: rgba(106, 195, 195, 0.6);
     border-radius: 0px 0px 15px 15px;
     font-size: large;
   }
+  
   .recuadro {
     display: flex;
     background-color: rgb(106, 195, 195);
@@ -74,7 +77,7 @@
     .imagenn {
         height: 300px;
         width: auto;
-        margin: 20px 0px 20px auto;
+        margin: 20px 0px 20px 5px;
         
        
     }
@@ -86,11 +89,14 @@
     .description{
         width: 80%;
         margin: 30px 30px 80px  ;
+        
     }
     .subtitle {
-        width: 80%;
+        margin: -325px 10px 10px 10px;
         font-size: 15px ;
-        height: auto;
+        height: 288px;
+        float: right;
+        width: 50%;
        
     }
     .title{
