@@ -62,3 +62,13 @@
     border-radius: 0px 0px 15px 15px;
     font-size: large;
   }
+  .recuadro {
+    display: flex;
+    background-color: rgb(106, 195, 195);
+    height: 15vh;
+    width: 100vw;
+  }
+  .recuadroH4{
+    color: white;
+    margin-top: -3rem;
+  }

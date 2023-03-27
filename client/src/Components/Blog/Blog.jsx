@@ -123,6 +123,7 @@ const Blog = () => {
           </div>
         )}
         <div className="recuadro"></div>
+        <h4 className="recuadroH4" >© 2022 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral | Derechos Reservados.</h4> 
       </div>
     </div>
   );

@@ -59,6 +59,10 @@
   width: 100vw;
   margin-top: -15rem;
 }
+.recuadroH4{
+  color: white;
+ margin-top: -3rem;
+}
 
 
 @media only screen and (max-width: 1400px) {
@@ -67,5 +71,15 @@
   }
   .videoFB {
     display: none;
+  }
+  .recuadro {
+    height: 25vh;
+    width: 100vw;
+    margin-top: -11rem;
+  }
+  .recuadroH4{
+    color: white;
+    font-size: 0.7rem;
+   margin-top: -2rem;
   }
 }

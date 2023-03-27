@@ -52,6 +52,11 @@
   margin-top: -16rem;
 }
 
+.recuadroH4{
+  color: white;
+ margin-top: -3rem;
+}
+
 
 @media only screen and (max-width: 1000px) {
 .tituloCont {
@@ -62,5 +67,8 @@
   height: 10vh;
   width: 100vw;
   margin-top: auto;
+}
+.recuadroH4{
+  font-size: 0.7rem;
 }
 }
