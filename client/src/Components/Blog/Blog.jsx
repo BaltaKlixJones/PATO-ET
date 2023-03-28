@@ -51,7 +51,7 @@ const Blog = () => {
                 src="https://www.youtube.com/embed/7xfez-fecnI"
                 title="YouTube video player"
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
               <iframe
@@ -62,7 +62,7 @@ const Blog = () => {
                 style={{ border: "none", overFlow: "hidden", marginLeft: "2%" }}
                 scrolling="no"
                 frameBorder="0"
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
                 allowFullScreen={true}
               ></iframe>
             </div>

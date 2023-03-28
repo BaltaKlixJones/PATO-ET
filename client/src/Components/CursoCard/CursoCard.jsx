@@ -3,7 +3,7 @@ import style from "./CursoCard.module.css";
 import Swal from "sweetalert2";
 
 
-const CursoCard = ({ id, name, profession, description, extra, otroextra, image }) => {
+const CursoCard = () => {
 
 const alert = () => {
   Swal .fire({
@@ -23,7 +23,7 @@ const alert = () => {
           </div>
           <div className={style.pack_name}>Online</div>
 
-          <p className={style.description}>Podrás tener acceso limitado a todos los cursos con los siguientes beneificios</p>
+          <p className={style.description}>Obtené acceso limitado a todos los cursos con los siguientes beneificios</p>
 
           <div className={style.lists}>
             <div className={style.list}>
@@ -58,7 +58,7 @@ const alert = () => {
           </div>
           <div className={style.pack_name}>Online</div>
 
-          <p className={style.description}>Podrás tener acceso limitado a todos los cursos con los siguientes beneificios</p>
+          <p className={style.description}>Obtené acceso limitado a todos los cursos con los siguientes beneificios</p>
 
           <div className={style.lists}>
             <div className={style.list}>
@@ -93,7 +93,7 @@ const alert = () => {
           </div>
           <div className={style.pack_name}>Online</div>
 
-          <p className={style.description}>Podrás tener acceso ilimitado a todos los cursos con un único pago con los siguientes beneificios</p>
+          <p className={style.description}>Obtené acceso ilimitado a todos los cursos con un único pago con los siguientes beneificios</p>
 
           <div className={style.lists}>
             <div className={style.list}>
