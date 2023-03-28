@@ -47,7 +47,7 @@ const alert = () => {
         </div>
         <div className={style.bottom}>
           <div className={style.price_container}>
-            <span className={style.price}>$ USD / mes</span>
+            {/* <span className={style.price}>$ / mes</span> */}
           </div>
           <button className={style.btn} onClick={alert} href="#">Comprar curso</button>
         </div>
@@ -82,7 +82,7 @@ const alert = () => {
         </div>
         <div className={style.bottom}>
           <div className={style.price_container}>
-            <span className={style.price}>$ USD / 6 meses</span>
+            {/* <span className={style.price}>$ / 6 meses</span> */}
           </div>
           <button className={style.btn} onClick={alert} href="#">Comprar curso</button>
         </div>
@@ -117,7 +117,7 @@ const alert = () => {
         </div>
         <div className={style.bottom}>
           <div className={style.price_container}>
-            <span className={style.price}>$ USD</span>
+            {/* <span className={style.price}>$ </span> */}
           </div>
           <button className={style.btn} onClick={alert} href="#">Comprar curso</button>
         </div>

@@ -8,7 +8,7 @@ export default function Home() {
     <div className="home">
       <div className="imagen-home">
         <img src={inicio} alt="" />
-        <p>Gracias a los papás de Simón</p>
+        <p>Gracias a José Zambrano, Mariana Borigen y Simón por permitirme usar esta foto</p>
       </div>
       <div className="titulo-home">
         {/* <h1>P.A.T.O Estimulación Temprana </h1> */}

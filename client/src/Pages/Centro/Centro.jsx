@@ -27,13 +27,7 @@ export default function Centro() {
             </h3>
           </div>
           <p style={{ margin: "3rem" }}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
-            assumenda unde nemo soluta repellat eaque vel deserunt similique
-            dolor quisquam veniam dolore asperiores eveniet atque, ex optio
-            error at! Similique? Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Commodi assumenda unde nemo soluta repellat eaque
-            vel deserunt similique dolor quisquam veniam dolore asperiores
-            eveniet atque, ex optio error at! Similique?
+           
           </p>
         </div>
 
