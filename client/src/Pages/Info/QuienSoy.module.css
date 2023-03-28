@@ -18,11 +18,11 @@
   justify-content: center;
   align-items: flex-start;
   float: left;
-  width: 35%;
-  height: 8rem;
+  width: 55%;
+  height: auto;
   background-color: rgba(106, 195, 195, 0.6);
-  border-radius: 0px 15px 0px 0px;
-  font-size: large;
+  border-radius: 0px 15px 10px 0px;
+  
   transform: translateY(2rem);
 }
 
@@ -30,11 +30,11 @@
     margin-bottom: -14px;
     height: 64px;
     width: auto;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .title h1 {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 .subtitle {
   display: flex;
@@ -49,7 +49,7 @@
   width: 84%;
   padding: 8px;
   transform: translateY(3rem);
-  margin-top: -16.5px;
+  margin-top: -5px;
 }
 .subtitle h2 {
   display: flex;
@@ -69,7 +69,7 @@
 }
 
 .imgQuiensoy {
-  max-width: 20%;
+  max-width: 15%;
 }
 
 .description {
@@ -103,12 +103,13 @@
   }
 
   .fotoText {
+    
     flex-direction: column;
     align-items: center;
   }
   .imagenn {
     max-height: 400px;
-    margin: 0 auto;
+    margin: 0 auto 1rem -2rem;
   }
 
   .imgQuiensoy {
