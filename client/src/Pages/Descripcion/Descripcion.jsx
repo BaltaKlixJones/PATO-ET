@@ -51,9 +51,7 @@ export default function Descripcion() {
           Neurorehabilitación Integral puede incluir diferentes tipos de
           terapias y técnicas, como la fisioterapia, la terapia ocupacional, la
           terapia del habla y el lenguaje, la terapia psicológica y la terapia
-          educativa. También puede incluir tecnologías de asistencia como
-          prótesis, órtesis, estimulación eléctrica y otros dispositivos para
-          mejorar la función y la movilidad. En general, la Neurorehabilitación
+          educativa. En general, la Neurorehabilitación
           Integral busca personalizar el tratamiento para las necesidades
           individuales de cada paciente y ayudar a maximizar su potencial de
           recuperación y su calidad de vida.
