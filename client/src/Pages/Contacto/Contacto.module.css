@@ -19,6 +19,7 @@
 
 .imgTit{
   transform: translateY(1rem);
+  margin-bottom:-40px;
 }
 
 .contactCard {
@@ -64,12 +65,13 @@
   color: rgb(63, 121, 230);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .contacto1 {
-  height: 75vh;
+  height: 100vh;
   }
   .contacto {
   height: 50vh;
+  
   }
   .titulo {
   font-size: 30px;
@@ -77,9 +79,12 @@
   }
   .imgTit{
     transform: translateY(1rem);
+    margin-bottom: 5px;
+   
   }
   .contactCard {
   width: 90%;
   top: 60%;
+  
   }
   }
