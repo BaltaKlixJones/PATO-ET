@@ -14,8 +14,8 @@ export default function QuienSoy() {
           <div className={style.title}>
           
             <h1 > <img className={style.logito}   src={profesora} alt="" /> Patricia Jones</h1>
-            <h3 style={{marginLeft:"0px"}}>
-              👋 Soy Patricia Jones Bustos Fierro y, en primer lugar, soy una
+            <h3 style={{marginLeft:"20px"}}>
+               Soy Patricia Jones Bustos Fierro y, en primer lugar, soy una
               orgullosa mamá de tres hijos: Santiago, Baltasar y Juan.
             </h3>
           </div>
