@@ -48,7 +48,7 @@ export default function Cursos() {
               src="https://www.youtube.com/embed/nHCx05rpesQ"
               title="YouTube video player"
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               onLoad={handleVideoLoad}
             ></iframe>
@@ -81,7 +81,10 @@ export default function Cursos() {
           <CursoCard />
         </div>
         <div className={style.recuadro}></div>
-        <h4 className={style.recuadroH4}>© 2023 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral | Derechos Reservados.</h4>
+        <h4 className={style.recuadroH4}>
+          © 2023 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral
+          | Derechos Reservados.
+        </h4>
       </div>
     </div>
   );
