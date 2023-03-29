@@ -5,7 +5,7 @@ import "./Descripcion.css";
 export default function Descripcion() {
   return (
     <div className="containerDescription">
-        <div style={{backgroundColor:" #9d9fa27e", borderRadius:"10px" , boxShadow:"0px 0px 10px 0px "}}>
+        <div className="containerdesc">
       <div className="description" style={{marginTop:"80px"}} >
         <h1> ¿Qué es la Estimulación Temprana? 🚼</h1>
         
@@ -35,7 +35,7 @@ export default function Descripcion() {
       </div>
       <hr />
 
-      <div style={{backgroundColor:" #9d9fa27e", borderRadius:"10px", boxShadow:"0px 0px 10px 0px "}}>
+      <div className="containerdesc">
       <div className="description" style={{marginTop:"80px"}} >
         <h1>¿Qué es la Neurehabilitación Integral? 🧠</h1>
       </div>

@@ -6,9 +6,17 @@ import Reseñas from "../../Components/Reseñas/Reseñas";
 export default function Home() {
   return (
     <div className="home">
+
+     
+
+
+      
       <div className="imagen-home">
         <img src={inicio} alt="" />
-        <p>Gracias a José Zambrano, Mariana Borigen y Simón por permitirme usar esta foto</p>
+        <div className="textofoto">
+
+        <p> Gracias a José Zambrano, Mariana Borigen y Simón por permitirme usar esta foto</p>
+        </div>
       </div>
       <div className="titulo-home">
         {/* <h1>P.A.T.O Estimulación Temprana </h1> */}
@@ -19,8 +27,6 @@ export default function Home() {
           Lic. en Educación Especial y Especialista en Estimulación Temprana
         </h2>
         <div className="texto">
-
-       
         <p
           
         >
@@ -42,6 +48,8 @@ export default function Home() {
         </p>
         </div>
       </div>
-    </div>
+      </div>
+   
+    
   );
 }

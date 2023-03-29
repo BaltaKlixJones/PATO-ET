@@ -46,8 +46,11 @@
     height: auto;
     width: 100%;
     max-height: none;
-    background-image: url("../../Imagenes/avionesfondo.png");
+    background-image: url("../../Imagenes/fondo\ pato.jpeg");
+    
   }
+ 
+  
   .imagen-home {
     margin-top: 30px;
     margin-left: 0px;
@@ -59,18 +62,27 @@
     height: auto;
   }
   .titulo-home {
-    width: 80%;
+    width: 90%;
     margin-top: 0;
     margin-left: 5px;
     padding-right: 5px;
     margin-bottom: 0px;
-    height: 200px;
-    margin-bottom: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    
   }
   .texto {
     padding-right: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
     font-family: cursive;
     font-size: 18px;
+    font-weight: bold;
+
+  }
+  .textofoto {
+    border:2px solid black; 
+    background-image: linear-gradient(to bottom right, #afedf1, rgb(160, 160, 237));
+    border-radius: 10px;
+    
   }
 }
