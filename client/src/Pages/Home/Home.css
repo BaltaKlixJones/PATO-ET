@@ -28,6 +28,15 @@
   border-radius: 10px;
   letter-spacing: 0.5px;
 }
+.textofoto {
+  background-color: aliceblue;
+  border: 2px solid black;
+  width: auto;
+  margin-right: 30px;
+  border-radius: 5px;
+  margin-left: 30px;
+
+}
 .imagen-home img {
   width: 400px; /* ajusta el tamaño a tu gusto */
   height: 500px;
