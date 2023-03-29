@@ -110,15 +110,22 @@
   .imagenn {
     max-height: 400px;
     margin: 0 auto 1rem -2rem;
+    margin-right: 30px;
+
   }
 
   .imgQuiensoy {
     max-width: 30%;
     margin: 0 auto;
+    margin-right: 200px;
   }
 
   .description {
     width: 90%;
     margin: 2rem auto;
+  }
+ 
+  .recuadroH4{
+    margin-top: -5rem;
   }
 }
