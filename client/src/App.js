@@ -9,7 +9,7 @@ import Cursos from "./Pages/Cursos/Cursos";
 import Descripcion from "./Pages/Descripcion/Descripcion";
 import QuienSoy from "./Pages/Info/QuienSoy";
 import axios from "axios"; 
-axios.defaults.baseURL = "https://back-pato-et-production.up.railway.app/"; 
+axios.defaults.baseURL = "https://patoet-back-production.up.railway.app/"; 
 
 
 function App() {

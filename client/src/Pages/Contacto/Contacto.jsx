@@ -79,9 +79,14 @@ const Contacto = () => {
           <div className={style.contactCard}>
             <div className={style.infoCard}>
               <h2 className={style.name}>{Pato[0].name}</h2>
-              <h3 className={style.profession}>{Pato[0].profession}</h3>
+              <h3 className={style.profession}>{Pato[0].profession} </h3>
+              <p className={style.profession} style={{fontSize:"15px"}}>(Universidad del Salvador)</p>
               <p className={style.description}>{Pato[0].description}</p>
+              <p className={style.description} style={{marginTop:"-5px"}}>(Facultad de Educación y Salud "Dr.Domingo Cabred")</p>
+              <p className={style.extra}>Especialista en Estimulación Temprana y Psicopedagogia Inicial </p>
               <p className={style.extra}>{Pato[0].extra}</p>
+              Inicial y Avanzado ESDM para bebes y niños pequeños con TEA Universidad Davis EE.UU
+Otros...
               {/* <p className={style.otroextra}>{Pato[0].otroextra}</p> */}
               <p className={style.phone}>Cel: {Pato[0].phone}</p>
               <p className={style.email} style={{ color: "black" }}>
