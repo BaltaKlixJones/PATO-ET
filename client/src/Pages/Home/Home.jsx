@@ -21,7 +21,7 @@ export default function Home() {
       <div className="titulo-home">
         {/* <h1>P.A.T.O Estimulación Temprana </h1> */}
         <h1 style={{ fontSize: "25px", fontFamily: "Crimson Text Lobster" }}>
-          Patricia Jones Bustos Fierro
+          Patricia Jones 
         </h1>
         <h2 style={{ fontSize: "18px" }}>
           Lic. en Educación Especial y Especialista en Estimulación Temprana
