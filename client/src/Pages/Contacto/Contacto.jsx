@@ -17,7 +17,7 @@ const Contacto = () => {
     <div className={style.contacto1}>
       <div className={style.contacto}>
         <div className={style.titulo}>
-          <h2 style={{ marginTop: "85px" }}>Contacta con nosotros</h2>
+          <h2 style={{ marginTop: "55px" }}>Contacta con nosotros</h2>
           <hr color="white" size="2" width="25%" />
           <div className={style.imgTit}>
             <a
@@ -85,7 +85,7 @@ const Contacto = () => {
               <p className={style.description} style={{marginTop:"-5px"}}>(Facultad de Educación y Salud "Dr.Domingo Cabred")</p>
               <p className={style.extra}>Especialista en Estimulación Temprana y Psicopedagogia Inicial </p>
               <p className={style.extra}>{Pato[0].extra}</p>
-              Inicial y Avanzado ESDM para bebes y niños pequeños con TEA Universidad Davis EE.UU
+              Inicial y Avanzado ESDM para bebes y niños pequeños con TEA Universidad Davis EE.UU <br />
 Otros...
               {/* <p className={style.otroextra}>{Pato[0].otroextra}</p> */}
               <p className={style.phone}>Cel: {Pato[0].phone}</p>
