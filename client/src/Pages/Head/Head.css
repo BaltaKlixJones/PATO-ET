@@ -38,22 +38,23 @@
       height: auto;
       flex-direction: column;
       padding: 20px;
-      
-     
+      margin-bottom: -30px;
     }
   
     .titulo-head {
       margin-bottom: 20px;
       text-align: center;
+      
     }
   
+
     .titulo-head img {
-      margin-right: 0;
+      margin-right: 3px;
       margin-bottom: 10px;
     }
   
     .titulo-head h1 {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   

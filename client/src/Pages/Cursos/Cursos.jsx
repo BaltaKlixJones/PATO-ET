@@ -53,6 +53,13 @@ export default function Cursos() {
               onLoad={handleVideoLoad}
             ></iframe>
           )}
+          <div style={{marginBottom:"-25px"}} >
+            <a style={{textDecoration:"none"}} href="https://www.mdzol.com/sociedad/2023/3/30/autismo-un-comportamiento-no-es-un-diagnostico-326025.html" target={"_blank"}>
+            <h4>
+              Si les interesa ampliar este tema pueden leer este artículo 
+              </h4>
+            </a>
+          </div>
         </div>
         <div className={style.cardCont}>
           <div className={style.cursotitulo2}>
