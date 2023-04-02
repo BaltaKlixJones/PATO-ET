@@ -81,7 +81,7 @@ const Contacto = () => {
               <h2 className={style.name}>{Pato[0].name}</h2>
               <h3 className={style.profession}>{Pato[0].profession} </h3>
               <p className={style.profession} style={{fontSize:"15px"}}>(Universidad del Salvador)</p>
-              <p className={style.description}>{Pato[0].description}</p>
+              <p className={style.description}>Profesora en Educación Especial</p>
               <p className={style.description} style={{marginTop:"-5px"}}>(Facultad de Educación y Salud "Dr.Domingo Cabred")</p>
               <p className={style.extra}>Especialista en Estimulación Temprana y Psicopedagogia Inicial </p>
               <p className={style.extra}>{Pato[0].extra}</p>
