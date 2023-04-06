@@ -1,4 +1,4 @@
-import logo from "../../Imagenes/logo2.png"
+import logo from "../../Imagenes/logo22.jpeg"
 import React from 'react';
 import './Head.css';
 
