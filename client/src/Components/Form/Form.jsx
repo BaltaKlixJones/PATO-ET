@@ -4,29 +4,33 @@ import { useHistory } from "react-router-dom";
 import { getPato } from "../../Redux/Actions";
 import style from "./Form.module.css"
 
+
+
 const Form = () => {
 
   const dispatch = useDispatch();
   const history = useHistory();
-
-  const Pato = useSelector((state) => state.pato);
-  console.log(Pato);
+  const Pato = useSelector((state) => state.pato);  
 
   const [form, setForm] = useState({
     email: "",
     password: "",
   });
 
-   const handleSubmit = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     if (!form.email || !form.password) {
       alert("Complete todos los campos");
     } else if (!/^\S+@\S+\.\S+$/.test(form.email)) {
       alert("Ingrese un email válido");
-    } else if (form.email === Pato[0].email && form.password === Pato[0].password) {
-      history.push("/");
     } else {
-      alert("Los valores ingresados no son correctos");
+      const authenticatedUser = Pato.find(user => user.email === form.email && user.password === form.password);
+      if (authenticatedUser) {
+        const adminPath = `PATO/${Pato[0].id}`;
+        history.push(`/Administrador/patriciajonesaministradora?admin=${adminPath}/a123lxzcjj44p55ad4091-33-2`);
+      } else {
+        alert("Los valores ingresados no son correctos");
+      }
     }
   };
   
@@ -42,7 +46,7 @@ const Form = () => {
     return (
       <div>
         <form onSubmit={handleSubmit} className={style.form}>
-          <span className={style.signup}>Sign Up</span>
+          <span className={style.signup}>Iniciar sesion</span>
           <input type="email" name="email" placeholder="Email" value={form.email} onChange={handleChange} className={style.formInput}/>
           <input type="password" name="password" placeholder="Password" value={form.password} onChange={handleChange} className={style.formInput}/>
           <button type="submit" className={style.formSubmit}>Sign up</button>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Location.css";
-import APIKEY from "../../config";
+import { APIKEY } from "../../config";
 
 export default function Location() {
   
