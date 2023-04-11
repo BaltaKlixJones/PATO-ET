@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { getPato } from "../../Redux/Actions";
 import style from "./Form.module.css"
+import Swal from "sweetalert2";
 
 
 
@@ -27,9 +28,27 @@ const Form = () => {
       const authenticatedUser = Pato.find(user => user.email === form.email && user.password === form.password);
       if (authenticatedUser) {
         const adminPath = `PATO/${Pato[0].id}`;
-        history.push(`/Administrador/patriciajonesaministradora?admin=${adminPath}/a123lxzcjj44p55ad4091-33-2`);
+        Swal.fire({
+          title: 'Login',
+          text: 'Logeando...',
+          icon: 'success',
+          timer: 1500,
+          timerProgressBar: true,
+          showConfirmButton: false,
+          allowOutsideClick: false
+        }).then(() => {
+          setTimeout(() => {
+            history.push(`/Administrador/patriciajonesaministradora?admin=${adminPath}/a123lxzcjj44p55ad4091-33-2`);
+          }, 1000);
+        });
       } else {
-        alert("Los valores ingresados no son correctos");
+       Swal.fire({
+        title: 'Error',
+        text: "¡Usuario o contraseña incorrectos!",
+        icon: 'error',
+        confirmButtonColor: '#19a501fd',
+        confirmButtonText: 'Okey'
+      })
       }
     }
   };

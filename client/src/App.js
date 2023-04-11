@@ -9,6 +9,7 @@ import Form from "./Components/Form/Form";
 import Cursos from "./Pages/Cursos/Cursos";
 import Descripcion from "./Pages/Descripcion/Descripcion";
 import QuienSoy from "./Pages/Info/QuienSoy";
+import AdminProf from "./Pages/Admin/AdminProf/AdminProf";
 import axios from "axios"; 
 import { BD } from "./config";
 axios.defaults.baseURL = BD; 
@@ -40,6 +41,7 @@ function App() {
         )} />
         <Route exact path="/Admin" component={Form} />
          <Route exact path="/Administrador/:id" component={Admin} />
+         <Route exact path="/Administrador/Profesionales/:id" component={AdminProf} />
         <Route exact path="/Centro" component={Centro} />
         <Route exact path="/Blog" component={Blog} />
         <Route exact path="/Contacto" component={Contacto} />
