@@ -7,8 +7,8 @@ const NavBar = () => {
 
   function toggleNav() {
     setOpen(!open);
-    
   }
+  
 
   const closeNav = () => {
     setOpen(false);

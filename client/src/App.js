@@ -10,6 +10,7 @@ import Cursos from "./Pages/Cursos/Cursos";
 import Descripcion from "./Pages/Descripcion/Descripcion";
 import QuienSoy from "./Pages/Info/QuienSoy";
 import AdminProf from "./Pages/Admin/AdminProf/AdminProf";
+import ScrollToTop from "./Components/ScrollToTop";
 
 import axios from "axios"; 
 import { BD } from "./config";
@@ -19,11 +20,13 @@ axios.defaults.baseURL = BD;
 function App() {
 
   const location = useLocation();
+ 
   
 
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollToTop />
       {location.pathname.startsWith('/Admin') ? (
   <Head />
 ) : (

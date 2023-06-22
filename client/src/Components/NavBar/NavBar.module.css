@@ -1,20 +1,22 @@
 .header {
-  display: inline-block;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: 0;
   background-color: rgb(106, 195, 195);
   font-size: 40px;
-  color: rgb(106, 195, 195);;
-  
+  color: rgb(106, 195, 195);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
+
 .nav__ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   height: 100%;
@@ -35,13 +37,11 @@
 .nav__link:hover {
   color: #646161;
   text-decoration: none;
- 
 }
 
 .nav__link:focus {
   color: #646161;
 }
-
 
 @media (max-width: 1401px) {
   .header__buttonNavOpen {
@@ -51,7 +51,6 @@
     font-size: 24px;
     cursor: pointer;
     height: 50px;
-    
   }
 
   .nav {
@@ -60,11 +59,14 @@
     left: 0;
     height: 100vh;
     width: 60%;
-    background-image: linear-gradient(to bottom, rgb(106, 195, 195), #fcfcfc 50%, #ffffff 50%, rgb(255, 255, 255));
+    background-image: linear-gradient(
+      to bottom,
+      rgb(106, 195, 195),
+      #fcfcfc 50%,
+      #ffffff 50%,
+      rgb(255, 255, 255)
+    );
 
-
-    
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -72,14 +74,12 @@
     transform: translateX(-100%);
     transition: transform 0.5s ease-in-out;
     z-index: 9999; /* Agrega un alto valor de z-index */
-    
   }
 
   .navShow {
     transform: translateX(0);
     transform: translateX(0);
     overflow: hidden;
-    
   }
 
   .header__buttonNavClose {
@@ -90,7 +90,6 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
-    
   }
 
   .nav__ul {
@@ -102,7 +101,6 @@
     padding: 0;
     list-style-type: none;
     height: 100%;
-   
   }
 
   .nav__item {
@@ -114,7 +112,6 @@
     text-decoration: none;
     color: #333;
     margin-left: 0px;
-    
   }
 }
 
@@ -132,7 +129,6 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    
   }
 
   .nav__button {
@@ -144,7 +140,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    
   }
   .nav-open {
     overflow: hidden;
@@ -153,6 +148,3 @@
     margin: 0 10px;
   }
 }
-
-
-  
