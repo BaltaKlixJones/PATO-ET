@@ -8,6 +8,7 @@ import './AdminProf.css'
 import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
+import Loading from '../../Loading/Loading'
 
 const AdminProf =() => {
 
@@ -16,8 +17,10 @@ const AdminProf =() => {
     const dispatch = useDispatch()
     const id = useParams()
     const location = useLocation()
+const [loading, setLoading] = useState(true)
+
     useEffect(() => {
-        dispatch(getProfessionals())
+        dispatch(getProfessionals()).then(() => setLoading(false))
         dispatch(getPato(id))
     }, [dispatch])
 
@@ -30,8 +33,8 @@ const handleEdit = (prof) => {
 const handleDelete = (id) => {
     console.log(id)
 }
-const isProfesionales = location.pathname === "/Administrador/Profesionales";
-    
+  const isProfesionales = location.pathname === "/Administrador/Profesionales";
+    if (loading) return <Loading />
   return (
     <>
     <hr />
@@ -52,7 +55,7 @@ const isProfesionales = location.pathname === "/Administrador/Profesionales";
         <h1>Profesionales del centro</h1>
     </div>
     <div className="professionals-container">
-  {allProfessionals.map((prof) => {
+  {/* {allProfessionals.map((prof) => {
     return (
         <div className="professional-container">
             <div className="professional-icons">
@@ -73,7 +76,40 @@ const isProfesionales = location.pathname === "/Administrador/Profesionales";
         
       </div> 
     )
-  })}
+  })} */}
+  <table class="professional-table">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Profesión</th>
+      <th>Descripción</th>
+      <th>Imagen</th>
+      <th>Editar</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    {allProfessionals.map((prof) => {
+      return (
+        <tr key={prof.name}>
+          <td>{prof.name}</td>
+          <td><img class="professional-image" src={prof.image} alt="imagen de profesional"/></td>
+          <td>{prof.profession}</td>
+          <td>{prof.description}</td>
+          <td>
+            <button class="professional-button" onClick={() => handleEdit(prof)}>
+              <i class="fas fa-edit"></i>✏️ 
+            </button>
+            <button class="professional-button" onClick={() => handleDelete(prof.id)}>
+              <i class="fas fa-trash-alt"></i> 🗑️ 
+            </button>
+          </td>
+        </tr>
+      )
+    })}
+  </tbody>
+</table>
+
 </div>    
     </>
   )

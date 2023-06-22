@@ -1,12 +1,16 @@
 import React from "react";
 import "./Home.css";
 import inicio from "../../Imagenes/inicio.png";
-import Reseñas from "../../Components/Reseñas/Reseñas";
+
+import {  useState } from "react";
+import Anuncio from "../../Components/Anuncio/Anuncio";
 
 export default function Home() {
+  // const [showAnuncio, setShowAnuncio] = useState(true);
+
   return (
     <div className="home">
-
+{/* {showAnuncio && <Anuncio />} */}
      
 
 

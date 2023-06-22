@@ -10,6 +10,7 @@ import Cursos from "./Pages/Cursos/Cursos";
 import Descripcion from "./Pages/Descripcion/Descripcion";
 import QuienSoy from "./Pages/Info/QuienSoy";
 import AdminProf from "./Pages/Admin/AdminProf/AdminProf";
+
 import axios from "axios"; 
 import { BD } from "./config";
 axios.defaults.baseURL = BD; 
@@ -46,6 +47,7 @@ function App() {
         <Route exact path="/Blog" component={Blog} />
         <Route exact path="/Contacto" component={Contacto} />
         <Route exact path="/Cursos" component={Cursos} />
+       
         <Route exact path="/QuienSoy" component={QuienSoy} />
       </BrowserRouter>
     </div>

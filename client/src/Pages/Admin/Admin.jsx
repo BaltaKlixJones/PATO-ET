@@ -8,6 +8,14 @@ import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { DataTable } from 'primereact/datatable';
+import { Column } from 'primereact/column';
+
+
+
+
+
+
 export default function Admin() {
  
   const Pato = useSelector((state) => state.pato);
@@ -18,7 +26,7 @@ export default function Admin() {
   }, [dispatch]);
 
   return (
-    <>
+    <div className={style.fondo}>
       <hr />
     <div className={style.admin}>
       <div className={style.tituloAdmin}>
@@ -48,6 +56,15 @@ export default function Admin() {
         tenemos disponibles para mejorar la experiencia de tus usuarios y
         mantener tu sitio actualizado y atractivo
         </div>
+
+        {/* <DataTable >
+    <Column  style={{ minWidth: '12rem' }} />
+    <Column  style={{ minWidth: '12rem' }}  />
+    <Column  style={{ minWidth: '14rem' }}
+         />
+    <Column style={{ minWidth: '12rem' }}  />
+    <Column  style={{ minWidth: '6rem' }}/>
+</DataTable> */}
         <div className={style.btn}>
         <Link to={`/Administrador/Profesionales/${Pato[0].id}`}>
           <button className={style.button}>Profesionales</button>
@@ -57,6 +74,6 @@ export default function Admin() {
         </div>
       </div>
     </div>
-    </>
+    </div>
   );
 }
