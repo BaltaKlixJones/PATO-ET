@@ -1,6 +1,5 @@
 import React from "react";
 import "./Location.css";
-import { APIKEY } from "../../config";
 
 export default function Location() {
   
@@ -23,7 +22,7 @@ export default function Location() {
             loading="lazy"
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
-            src={`https://www.google.com/maps/embed/v1/place?key=${APIKEY}
+            src={`https://www.google.com/maps/embed/v1/place?key=${process.env.REACT_APP_APIKEY}
       &q=P.a.t.o+-Centro+de+Estimulaci%C3%B3n+Temprana+y+Neurorehabilitacion+Integral+(de+Lic.+Patricia+Jones),-24.71882,-65.4110963`}
           ></iframe>
         </div>

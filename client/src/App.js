@@ -13,8 +13,7 @@ import AdminProf from "./Pages/Admin/AdminProf/AdminProf";
 import ScrollToTop from "./Components/ScrollToTop";
 
 import axios from "axios"; 
-import { BD } from "./config";
-axios.defaults.baseURL = BD; 
+axios.defaults.baseURL = process.env.REACT_APP_BD; 
 
 
 function App() {
