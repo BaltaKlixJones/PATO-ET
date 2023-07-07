@@ -22,7 +22,7 @@
     "sweetalert2": "^11.7.3",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://patoestimulaciontemprana.com/",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
