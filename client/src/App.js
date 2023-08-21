@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <Routes>
       <ScrollToTop />
       {location.pathname.startsWith('/Admin') ? (
   <Head />
@@ -51,7 +51,7 @@ function App() {
         <Route exact path="/Cursos" component={Cursos} />
        
         <Route exact path="/QuienSoy" component={QuienSoy} />
-      </BrowserRouter>
+      </Routes>
     </div>
   );
 }
