@@ -4,6 +4,7 @@ import Cards from "../../Components/Cards/Cards";
 import PatoRender from "../../Components/PatoRender/PatoRender";
 import style from "./Centro.module.css";
 import arcoiris from "../../Imagenes/arco-iris.png";
+import marian from "../../Imagenes/marian1en150.jpg";
 
 export default function Centro() {
   return (
@@ -26,13 +27,21 @@ export default function Centro() {
               Progreso con Amor, Trabajo Y Orden{" "}
             </h3>
           </div>
-          <p style={{ margin: "3rem" }}>
-           
-          </p>
+          <p style={{ margin: "3rem" }}></p>
         </div>
-
         <div>
           <PatoRender />
+        </div>
+        <div className={style.mariandiv}>
+          <img src={marian} alt="marian" className={style.imgmarian} />
+          <a
+          style={{color: "blue", fontStyle: "italic"}}
+            target="_blank"
+            href="http://www.saltabebe.com.ar/Portada?n=Detr%C3%A1s_del_reto_est%C3%A1_la_bendici%C3%B3n"
+            rel="noreferrer"
+          >
+            <h3>Detrás del reto está la bencidición</h3>
+          </a>
         </div>
         <div>
           <Cards />
@@ -41,7 +50,10 @@ export default function Centro() {
           <Location />
         </div>
         <div className={style.recuadro}></div>
-         <h4 className={style.recuadroH4} >© 2023 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral | Derechos Reservados.</h4> 
+        <h4 className={style.recuadroH4}>
+          © 2023 | P.A.T.O. Estimulación Temprana y Neurorehabilitación Integral
+          | Derechos Reservados.
+        </h4>
       </div>
     </div>
   );

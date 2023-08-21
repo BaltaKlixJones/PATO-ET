@@ -4,6 +4,20 @@
 .centro2 {
   background-color: rgba(255, 255, 255, 0.75);
 }
+.mariandiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.imgmarian {
+  height: auto;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
 
 .tituloCont {
   display: flex;
@@ -52,23 +66,25 @@
   margin-top: -16rem;
 }
 
-.recuadroH4{
+.recuadroH4 {
   color: white;
- margin-top: -3rem;
+  margin-top: -3rem;
 }
-
 
 @media only screen and (max-width: 1000px) {
-.tituloCont {
-  width: 95%;
-}
-.recuadro {
-  background-color: rgb(106, 195, 195);
-  height: 10vh;
-  width: 100vw;
-  margin-top: auto;
-}
-.recuadroH4{
-  font-size: 0.7rem;
-}
+  .tituloCont {
+    width: 95%;
+  }
+  .recuadro {
+    background-color: rgb(106, 195, 195);
+    height: 10vh;
+    width: 100vw;
+    margin-top: auto;
+  }
+  .recuadroH4 {
+    font-size: 0.7rem;
+  }
+  .imgmarian {
+    width: 90%;
+  }
 }

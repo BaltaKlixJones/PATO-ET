@@ -4,9 +4,12 @@ import style from "./PatoCard.module.css";
 
 const PatoCard = ({ id, name, profession, description, extra, otroextra, image, phone, email }) => {
   return (
+
     <div className={style.card}>
-     
-      <img src={image} className={style.cardImage} alt="image" />
+     <div className={style.div_img_pato} >
+
+      <img src={image} className={style.cardImage} alt="pato" />
+     </div>
       <div className={style.infoCont}>
         <div className={style.name}>{name}</div>
         <div className={style.profession}>{profession}</div>
@@ -17,6 +20,8 @@ const PatoCard = ({ id, name, profession, description, extra, otroextra, image, 
         <div className={style.email}>{email}</div>
      </div>
 </div>
+ 
+
    
   );
 };

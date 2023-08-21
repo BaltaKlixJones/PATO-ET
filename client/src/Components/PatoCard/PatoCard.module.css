@@ -1,5 +1,5 @@
 .card {
-    width: 70%;
+    width: 60%;
     height: 250px;
     background: #fff;
     border: 1px solid;
@@ -12,16 +12,23 @@
   
   .cardImage {
     display: flex;
+    justify-content: center ;
+    align-items: center;
     background-color: rgb(236, 236, 236);
-    height: 230px;
+    height: 250px;
     border-radius: 6px;
-    margin: 10px;
+    margin: 0 auto;
     width: auto;
-    max-height: auto;
+    max-height: 250px;
+    transition: all .5s;
   }
+
+  .div_img_pato{
+  width: 50%;
+}
   
   .cardImage:hover {
-    transform: scale(1.06);
+    transform: scale(1.1);
   }
   
   .infoCont{
